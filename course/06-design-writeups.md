@@ -22,6 +22,24 @@ Practice writing and reading **curatorial / critical** language about the Chemex
 
 > **REVIEW:** Do not paste long MoMA / LIFE / magazine text into this repo. Summarize; quote short phrases only with attribution; clear rights for any reproduced label photography.
 
+
+## Curator’s Eye — John Stuart Gordon (MODERN Magazine)
+
+Short reading for class discussion. Full essay: [Curator’s Eye: Chemex Coffeemaker by Peter Schlumbohm](http://modernmag.com/curators-eye-chemex-coffeemaker-by-peter-schlumbohm/).
+
+> The Chemex has remained in **continual production since 1941** — a rare unbroken run for a mid-century domestic object that also entered the museum as a “useful” wartime design. MoMA’s **Useful Objects in Wartime** context framed glass, leather, and wood as materials that could stay in production when metals were redirected; Schlumbohm’s hourglass adapts the laboratory **Erlenmeyer** / funnel typology in **borosilicate** (Pyrex / Corning lineage), turning the kitchen into a small lab and folding **atomic-age domesticity** into everyday ritual.
+
+**Key themes to pull in labels / discussion**
+
+- Continual production since **1941**
+- MoMA **Useful Objects** wartime exhibition / bulletin cover presence
+- Glass / leather / wood as comparatively **unregulated** wartime materials
+- Laboratory typology (**Erlenmeyer**, funnel) → home
+- Borosilicate / Pyrex / Corning material story
+- Kitchen-as-lab; atomic-age domesticity
+
+> **REVIEW:** Paraphrase/summary for teaching — do not paste long magazine text. Prefer linking out; clear rights if projecting scans.
+
 ## Writing prompts for participants
 
 1. **50-word object label** — as if for a design museum (include maker, date, materials, one cultural note).

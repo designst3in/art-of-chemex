@@ -24,6 +24,8 @@ This Docsify site is the course home for Abhishek’s *Art of Chemex* workshop: 
 | 06 · Design Write-ups | Curatorial reading & label writing |
 | 07 · Brew Method | Hands-on pour-over (house recipe TBD) |
 | 08 · Run of Show | Workshop timing & facilitation |
+| 09 · Art reference | HQ product refs + art direction |
+| Design system | Type roles, tokens, specimens |
 | Research Brief | Timeline table + source links |
 
 ## How to use this site

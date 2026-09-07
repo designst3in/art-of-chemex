@@ -1,4 +1,4 @@
-/* Art of Chemex — ADD-dub art direction tokens
+/* Art of Chemex — design system tokens
    cream #F7F1E5 · turquoise #1AA7A0 · coffee #5C3A21 · ink #2A1F18 */
 
 @font-face {
@@ -10,27 +10,66 @@
 }
 
 :root {
-  --cream: #F7F1E5;
-  --turquoise: #1AA7A0;
+  /* Type families */
+  --font-flex: 'Google Sans Flex', sans-serif;
+  --font-silkscreen: 'Silkscreen', monospace;
+  --font-body: 'Inter', system-ui, sans-serif;
+
+  /* Flex axis defaults (headlines) */
+  --wght-h1: 120;
+  --wght-h2: 200;
+  --wght-h3: 280;
+  --wdth-h1: 100;
+  --wdth-h2: 105;
+  --wdth-h3: 100;
+  --opsz-h1: 144;
+  --opsz-h2: 36;
+  --opsz-h3: 24;
+
+  /* Palette */
+  --color-cream: #F7F1E5;
+  --color-turquoise: #1AA7A0;
+  --color-coffee: #5C3A21;
+  --color-ink: #2A1F18;
+
+  /* Legacy aliases */
+  --cream: var(--color-cream);
+  --turquoise: var(--color-turquoise);
   --turquoise-hover: #158F89;
-  --coffee: #5C3A21;
-  --ink: #2A1F18;
-  --theme-color: #1AA7A0;
+  --coffee: var(--color-coffee);
+  --ink: var(--color-ink);
+
+  --theme-color: var(--color-turquoise);
   --base-font-size: 16px;
   --sidebar-width: 280px;
   --content-max-width: 42rem;
   --border-soft: rgba(92, 58, 33, 0.18);
 }
 
-/* ── HUD / Silkscreen treatment ── */
+/* ── Body ── */
+body {
+  font-family: var(--font-body);
+  font-size: 16.5px;
+  font-weight: 400;
+  background: var(--color-cream);
+  color: var(--color-ink);
+  line-height: 1.7;
+}
+
+/* ── HUDDI / Silkscreen chrome only (not headlines, not body)
+   Integer-scale spirit: 16px (= 8px×2), weight 400 ONLY — never 700. ── */
+.hud,
 .hud-type,
+.huddi,
 .sidebar ul li a,
 .sidebar-nav,
-.markdown-section h2,
-.markdown-section h3,
-.markdown-section h4 {
-  font-family: 'Silkscreen', monospace;
-  color: var(--coffee);
+.markdown-section .meta,
+.markdown-section .badge,
+.markdown-section .review-badge {
+  font-family: var(--font-silkscreen);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--color-coffee);
   -webkit-font-smoothing: none;
   -moz-osx-font-smoothing: unset;
   font-smooth: never;
@@ -38,28 +77,37 @@
   letter-spacing: 0;
 }
 
-body {
-  font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
-  font-size: 16.5px;
+/* Inline code stays Silkscreen HUD, weight 400 */
+.markdown-section code {
+  font-family: var(--font-silkscreen);
   font-weight: 400;
-  background: var(--cream);
-  color: var(--ink);
-  line-height: 1.7;
+  color: var(--color-coffee);
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: unset;
+  font-smooth: never;
+  text-rendering: geometricPrecision;
+  letter-spacing: 0;
 }
 
 .sidebar {
-  background: var(--cream);
+  background: var(--color-cream);
   border-right: 1px solid var(--border-soft);
 }
 
+/* App name / sidebar title — Flex thin (h1-like) */
 .sidebar > h1.app-name,
 .app-name,
 .app-name-link {
-  font-family: 'Google Sans Flex', sans-serif !important;
-  font-weight: 1 !important;
-  font-variation-settings: 'wght' 1, 'wdth' 100, 'opsz' 144;
+  font-family: var(--font-flex) !important;
+  font-weight: var(--wght-h1) !important;
+  font-variation-settings:
+    'wght' var(--wght-h1),
+    'wdth' var(--wdth-h1),
+    'opsz' var(--opsz-h1),
+    'GRAD' 0,
+    'ROND' 0;
   font-size: clamp(1.25rem, 2.5vw, 1.75rem) !important;
-  color: var(--turquoise) !important;
+  color: var(--color-turquoise) !important;
   letter-spacing: -0.02em;
   margin: 1.25rem 0 0.5rem;
   line-height: 1.15;
@@ -69,70 +117,112 @@ body {
 .sidebar ul li a {
   font-size: 16px;
   font-weight: 400;
-  color: var(--coffee);
+  color: var(--color-coffee);
   line-height: 1.4;
 }
 
 .sidebar ul li.active > a {
-  color: var(--turquoise);
-  font-weight: 700;
+  color: var(--color-turquoise);
+  font-weight: 400;
 }
 
 .content {
-  background: var(--cream);
+  background: var(--color-cream);
 }
 
 .markdown-section {
-  background: var(--cream);
+  background: var(--color-cream);
   border-radius: 0;
   padding: 2.5rem 2.75rem;
   margin: 1.5rem auto;
   box-shadow: none;
   border: 1px solid var(--border-soft);
   max-width: var(--content-max-width);
-  color: var(--ink);
-  font-family: 'Inter', sans-serif;
+  color: var(--color-ink);
+  font-family: var(--font-body);
   font-size: 16.5px;
   line-height: 1.7;
 }
+/* ── Body copy: Inter only (no Silkscreen, no Flex) ── */
+.markdown-section p,
+.markdown-section li,
+.markdown-section td,
+.markdown-section th,
+.markdown-section blockquote,
+.markdown-section blockquote p {
+  font-family: var(--font-body);
+  font-weight: 400;
+}
 
+
+/* ── Headlines: Google Sans Flex (variable), thin ── */
 .markdown-section h1 {
-  font-family: 'Google Sans Flex', sans-serif;
-  font-weight: 1;
-  font-variation-settings: 'wght' 1, 'wdth' 100, 'opsz' 144;
+  font-family: var(--font-flex);
+  font-weight: var(--wght-h1);
+  font-variation-settings:
+    'wght' var(--wght-h1),
+    'wdth' var(--wdth-h1),
+    'opsz' var(--opsz-h1),
+    'GRAD' 0,
+    'ROND' 0;
   font-size: clamp(2.5rem, 5vw, 4.5rem);
   line-height: 1.05;
   letter-spacing: -0.03em;
-  color: var(--turquoise);
+  color: var(--color-turquoise);
   border-bottom: none;
   margin: 0 0 1rem;
   -webkit-font-smoothing: antialiased;
 }
 
 .markdown-section h2 {
-  font-size: 24px;
-  font-weight: 700;
+  font-family: var(--font-flex);
+  font-weight: var(--wght-h2);
+  font-variation-settings:
+    'wght' var(--wght-h2),
+    'wdth' var(--wdth-h2),
+    'opsz' var(--opsz-h2),
+    'GRAD' 0,
+    'ROND' 0;
+  font-size: clamp(1.35rem, 2.5vw, 1.75rem);
   margin-top: 2rem;
   margin-bottom: 0.75rem;
   padding-bottom: 8px;
   border-bottom: 1px solid var(--border-soft);
   line-height: 1.25;
+  color: var(--color-coffee);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -0.015em;
 }
 
 .markdown-section h3 {
-  font-size: 16px;
-  font-weight: 700;
+  font-family: var(--font-flex);
+  font-weight: var(--wght-h3);
+  font-variation-settings:
+    'wght' var(--wght-h3),
+    'wdth' var(--wdth-h3),
+    'opsz' var(--opsz-h3),
+    'GRAD' 0,
+    'ROND' 0;
+  font-size: clamp(1.05rem, 1.5vw, 1.25rem);
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
   border-bottom: none;
   line-height: 1.35;
+  color: var(--color-coffee);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -0.01em;
 }
 
 .markdown-section h4 {
+  font-family: var(--font-silkscreen);
   font-size: 16px;
   font-weight: 400;
   margin-top: 1.25rem;
   border-bottom: none;
+  color: var(--color-coffee);
+  -webkit-font-smoothing: none;
+  font-smooth: never;
+  text-rendering: geometricPrecision;
 }
 
 .markdown-section p,
@@ -141,9 +231,9 @@ body {
 }
 
 .markdown-section blockquote {
-  border-left: 4px solid var(--coffee);
+  border-left: 4px solid var(--color-coffee);
   background: rgba(92, 58, 33, 0.06);
-  color: var(--ink);
+  color: var(--color-ink);
   margin: 1.25rem 0;
   padding: 0.85rem 1.15rem;
   border-radius: 0;
@@ -155,24 +245,20 @@ body {
 
 .markdown-section code {
   background: rgba(92, 58, 33, 0.08);
-  color: var(--coffee);
-  font-family: 'Silkscreen', monospace;
+  color: var(--color-coffee);
   font-size: 14px;
   padding: 0.1em 0.35em;
   border-radius: 0;
-  -webkit-font-smoothing: none;
-  font-smooth: never;
-  text-rendering: geometricPrecision;
 }
 
 .markdown-section pre {
-  background: var(--ink) !important;
+  background: var(--color-ink) !important;
   border-radius: 0;
   border: 1px solid var(--border-soft);
 }
 
 .markdown-section a {
-  color: var(--turquoise);
+  color: var(--color-turquoise);
   text-decoration: none;
   border-bottom: 1px solid rgba(26, 167, 160, 0.35);
 }
@@ -200,6 +286,24 @@ img.smooth {
   image-rendering: auto;
 }
 
+/* Design-system specimens */
+.type-specimen {
+  margin: 1rem 0 1.5rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--border-soft);
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.type-specimen .label {
+  font-family: var(--font-silkscreen);
+  font-size: 16px;
+  color: var(--color-coffee);
+  -webkit-font-smoothing: none;
+  font-smooth: never;
+  text-rendering: geometricPrecision;
+  margin-bottom: 0.5rem;
+}
+
 .search .input-wrap {
   margin: 0.75rem 1rem;
 }
@@ -209,8 +313,8 @@ img.smooth {
   border: 1px solid var(--border-soft);
   border-radius: 0;
   padding: 0.5rem 0.75rem;
-  font-family: 'Inter', sans-serif;
-  color: var(--ink);
+  font-family: var(--font-body);
+  color: var(--color-ink);
 }
 
 .sidebar-toggle {
@@ -218,7 +322,7 @@ img.smooth {
 }
 
 .sidebar-toggle span {
-  background-color: var(--coffee);
+  background-color: var(--color-coffee);
 }
 
 @media (max-width: 768px) {

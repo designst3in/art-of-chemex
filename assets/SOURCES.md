@@ -1,6 +1,6 @@
 # Image & Patent Sources
 
-Ledger for credits. Add a row whenever you drop a file into `assets/images/`, `assets/patents/`, or `assets/historical/`.
+Ledger for credits. Add a row whenever you drop a file into `assets/images/`, `assets/patents/`, `assets/historical/`, or `assets/reference/`.
 
 Full catalog (essays, list-only URLs, figure notes): **[IMAGES-AND-ESSAYS.md](IMAGES-AND-ESSAYS.md)**.
 
@@ -23,6 +23,20 @@ Full catalog (essays, list-only URLs, figure notes): **[IMAGES-AND-ESSAYS.md](IM
 | `patents/US2681154_GooglePatents.pdf` | Filter-pot | Google / Freepatentsonline | Public | 1954 |
 | `patents/US2693883_USPTO.pdf` | Filter paper blank | [USPTO](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/2693883) | Public | 1954-11-09 |
 | `patents/US2897970_USPTO.pdf` | Filtration equipment (coffee) | [USPTO](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/2897970) | Public | 1959-08-04 |
+
+
+## Product reference stills (`reference/product/`)
+
+| File | Description | Source / credit | License / terms | Notes |
+|------|-------------|-----------------|-----------------|-------|
+| `reference/product/chemex-studio-white-front.jpg` | Studio white, front | Workshop HQ ref (user attachment) | **REVIEW** — rights TBD | Internal art reference |
+| `reference/product/chemex-studio-white-front-alt.webp` | Studio white, alt front | Same | **REVIEW** | |
+| `reference/product/chemex-lifestyle-mugs-kitchen.webp` | Lifestyle kitchen + mugs | Same | **REVIEW** | |
+| `reference/product/chemex-studio-sage-green.webp` | Studio sage green | Same | **REVIEW** | |
+| `reference/product/chemex-anatomy-design-annotated.jpg` | Anatomy / design annotated | Same | **REVIEW** | |
+| `reference/ART-DIRECTION.md` | Geometry, materials, camera / PS1 placeholders | Workshop notes | Internal | Links product + patent figs |
+
+Gallery page: [course/09-art-reference.md](../course/09-art-reference.md). Design tokens: [course/design-system.md](../course/design-system.md).
 
 ## List-only (do not commit without clearance)
 
