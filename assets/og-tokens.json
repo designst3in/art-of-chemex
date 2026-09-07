@@ -1,12 +1,11 @@
 {
   "canvas": "1200x630",
-  "method": "White-bg Chemex photo as base (NOT rembg); full-frame #4bb4bb Color blend (Photoshop Color / CSS mix-blend-mode:color = SetLum(Cs, Lum(Cb))); type over image.",
-  "blendMode": "color",
+  "status": "deferred",
+  "note": "User rejected photo Color-blend bake (5e8872e). Interim pure-type OG only — solid #4bb4bb, cream Flex title, coffee Silkscreen credits; NO Chemex photo. Refine later in chemex-og-lab (chrome lab :8766).",
+  "method": "Pure-type interim: solid #4bb4bb fill; cream Flex title; coffee Silkscreen credits. No product photo.",
+  "blendMode": null,
   "tint": "#4bb4bb",
-  "sourcePhoto": "chemex-studio-white-front.jpg",
-  "basePhoto": "/workspace/art-of-chemex/assets/reference/product/chemex-studio-white-front.jpg",
-  "photoScale": 0.95,
-  "photoAnchorX": 0.48,
+  "sourcePhoto": null,
   "transparentCutoutUsed": false,
   "title": {
     "text": "Art of Chemex",
@@ -16,7 +15,7 @@
     "wdth": 112,
     "opsz": 144,
     "sizePx": 113,
-    "position": "left over image"
+    "position": "left mid"
   },
   "subtitle": null,
   "credits": {
@@ -29,6 +28,8 @@
     "font": "Silkscreen Regular 400",
     "position": "bottom-left"
   },
-  "layout": "Chemex under type (image layer then type on top); no subtitle tag",
-  "approved": "2026-09-07"
+  "layout": "Pure type on solid turquoise; no Chemex photo",
+  "approved": null,
+  "interim": "2026-09-07",
+  "rejectedBake": "5e8872e"
 }

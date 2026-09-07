@@ -27,7 +27,7 @@ Public Docsify surface is **workshop participants only**:
 - **Coffee Scientist gates** public updates: keep structure clean and not stale; reconcile chat decisions vs repo vs user edits before publishing.
 - **Git rollback** is the recovery path — rely on history; don’t invent parallel “backup” trees for teach content.
 - **Design / art / media live here** — product refs, OG tokens, fonts, patents, and art direction all stay under this repo (not only in chat or ephemeral labs).
-- Homepage rewrite remains gated until OG final is signed off and `assets/og.png` is in place (see §5).
+- Homepage rewrite remains gated until OG final is signed off (see §5 — currently **deferred**, interim pure-type only).
 - Log decisions and open **REVIEW** items in this file.
 
 ---
@@ -85,29 +85,24 @@ Ice demo in-session = assemble + explain only (not a full steep).
 
 ---
 
-## 5. OG status — locked layout from lab
+## 5. OG status — DEFERRED (interim pure-type)
 
-Locked in OG lab (`/workspace/chemex-og-lab` on the shared box) and mirrored to `assets/og-tokens.json` + `assets/og.png`.
+**User rejected** the photo Color-blend bake at SHA `5e8872e` (studio-white-front + turquoise Color). They will refine later — **do not** chase a new photo bake now.
+
+**Interim:** pure-type `assets/og.png` (1200×630) — solid `#4bb4bb`, cream Flex title “Art of Chemex” (wght90 / wdth112 / opsz144 ~113px), coffee Silkscreen credits **DESIGN SCIENTIST / × / KAT & KIN**. **No Chemex photo.**
 
 | Token | Value |
 |-------|--------|
-| wght | **90** |
-| wdth | **112** |
-| opsz | **144** |
-| Title size | **113 px** |
-| Image scale | **95%** |
-| Subtitle | **none** (removed) |
-| Background | `#4bb4bb` |
-| Title color | white/cream (`#F7F1E5` in tokens; lab bake also used `#FFFFFF`) |
-| Credits | Silkscreen coffee `#5C3A21`: **DESIGN SCIENTIST / × / KAT & KIN** |
+| status | **`deferred`** (see `assets/og-tokens.json`) |
+| Background | solid `#4bb4bb` |
+| Title | cream `#F7F1E5` Flex thin-wide |
+| Credits | Silkscreen coffee `#5C3A21` |
+| Photo | **none** (interim) |
+| Chrome lab | `/workspace/chemex-og-lab` — serve on **:8766** for later refine |
 
-**Method (approved):** white-bg Chemex studio photo + full-frame **`#4bb4bb` Color-blend** (CSS `mix-blend-mode: color` / Photoshop Color). Type over image. **Not** rembg transparent cutout for final OG.
+Prior Color-blend layout tokens (wght/wdth/opsz/size, credits) remain a useful starting point in lab when refining; rembg transparent cutout stays rejected for final OG accuracy.
 
-**Rejected for OG accuracy:** transparent PNG at `assets/images/chemex-transparent.png` (rembg from studio-white-front-alt) — kept on disk for other compositing experiments, **do not** use for the public OG bake.
-
-**Export:** `assets/og.png` copied from lab `exports/og-final.png` (Color-blend bake). Open Graph meta tags added in `index.html`.
-
-**Still pending:** homepage rewrite after OG final export lands — **do not half-rewrite** the Docsify homepage until that pass is intentional. Tokens + `og.png` are enough for social previews now.
+**Still pending:** homepage rewrite gated until OG is signed off — **do not half-rewrite** the Docsify homepage. Interim pure-type is enough for social previews for now.
 
 ---
 
@@ -126,7 +121,7 @@ Locked in OG lab (`/workspace/chemex-og-lab` on the shared box) and mirrored to 
 |----|------|--------|
 | R1 | Stumptown ice Chemex **YouTube URL** | REVIEW TODO |
 | R2 | Caplan “logic and madness” — **original quote + cite** | REVIEW |
-| R3 | OG Color-blend final in `assets/og.png` | DONE (copied 2026-09-07); re-QA social preview |
+| R3 | OG final bake | **DEFERRED** — user rejected `5e8872e` photo Color-blend; interim pure-type; refine in chemex-og-lab :8766 |
 | R4 | **Homepage sync / rewrite** after OG | PENDING |
 | R5 | Immigration date: 1935 (MoMA) vs 1936 (Lemelson/Chemex) | REVIEW |
 | R6 | IIT “100 best” 1956 vs 1958 | REVIEW |
@@ -156,7 +151,8 @@ Vendor copy may exist under `assets/vendor/huddi/` for makers; it is **not** wir
 
 ### 2026-09-07 — documentation + OG bake promotion
 
-- Rebuilt OG from `chemex-studio-white-front.jpg` + turquoise Color blend; removed HISTORY/DESIGN/BREW tag; refreshed `assets/og.png` + tokens.
+- **OG deferred:** user rejected photo Color-blend bake (`5e8872e`). Replaced `assets/og.png` with interim **pure-type** (solid `#4bb4bb`, cream Flex title, coffee credits, no photo). `og-tokens.json` status `"deferred"`; refine later in chemex-og-lab (:8766).
+- Earlier same day: rebuilt OG from `chemex-studio-white-front.jpg` + turquoise Color blend; removed HISTORY/DESIGN/BREW tag — **superseded / rejected**.
 
 - Expanded this NOTES into full project log (protocol, type, workshop, brew, OG lock, hygiene, REVIEW, URLs).
 - Added `docs/PROJECT.md` cold-start TL;DR; `assets/og-tokens.json` locked tokens; copied Color-blend `og-final.png` → `assets/og.png`; OG meta in `index.html`; README Status blurb.
@@ -196,9 +192,9 @@ Vendor copy may exist under `assets/vendor/huddi/` for makers; it is **not** wir
 - **REVIEW** — draft present; needs verification before teaching  
 - **DONE** — verified / approved  
 
-## OG image (approved)
+## OG image (deferred / interim)
 
-- **2026-09-07** — FINAL `assets/og.png` (1200×630). Source `chemex-studio-white-front.jpg` (not alt/rembg); full-frame `#4bb4bb` Color blend; cream title Flex 90/112/144 ~113px left over image; coffee Silkscreen BL credits; **subtitle removed**. See `assets/og-tokens.json`.
+- **2026-09-07** — Photo Color-blend at `5e8872e` **rejected** by user. Interim pure-type `assets/og.png` (1200×630): solid `#4bb4bb`, cream Flex title, coffee Silkscreen credits, **no Chemex photo**. Status `"deferred"` in `assets/og-tokens.json`. Refine later in chemex-og-lab (chrome :8766).
 
 ## Conventions
 
