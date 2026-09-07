@@ -4,7 +4,7 @@ Workshop-facing anatomy of the Chemex as a design object — consolidating MoMA 
 
 <img class="smooth" src="/art-of-chemex/assets/reference/product/chemex-anatomy-design-annotated.jpg" alt="Chemex anatomy — annotated design attributes" />
 
-*Annotated product anatomy (brand reference still). Rights: keep under **REVIEW** before public projection — see [NOTES](/NOTES.md) and [ART-DIRECTION](/art-of-chemex/assets/reference/ART-DIRECTION.md).*
+*Annotated product anatomy (brand reference still). Prefer open-license Brooklyn Commons photos for public handouts; see [ART-DIRECTION](/art-of-chemex/assets/reference/ART-DIRECTION.md) and [SOURCES](/art-of-chemex/assets/SOURCES.md).*
 
 ## Attribute diagram
 
@@ -65,5 +65,3 @@ flowchart TB
 - **Design object module:** [02 · Design Object](02-design-object.md)
 - **How it works:** [03 · How It Works](03-how-it-works.md)
 - **HQ product refs:** [09 · Art reference](09-art-reference.md)
-
-> **REVIEW:** Brand annotated JPG (`chemex-anatomy-design-annotated.jpg`) — confirm rights / attribution before slides or public projection. Open-license Brooklyn Commons photo remains the safe default for handouts.

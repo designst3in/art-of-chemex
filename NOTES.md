@@ -7,6 +7,17 @@ Repo: https://github.com/designst3in/art-of-chemex
 
 ---
 
+## 0. Participant-facing site (public)
+
+Public Docsify surface is **workshop participants only**:
+
+- `_sidebar.md` — no Notes, no Type tokens / design-system, no protocol links
+- `README.md` — workshop overview only (no Working together / Status / NOTES·PROJECT cold-start)
+- Course modules — no `> **REVIEW:**` instructor banners (open items stay in §7 below)
+- Editors: [`internal/design-system.md`](internal/design-system.md) · this NOTES · `docs/PROJECT.md` · `assets/og-tokens.json` (kept in git, unlinked from nav)
+
+---
+
 ## 1. Working protocol
 
 - **This repo holds everything** — course modules, assets, type tokens, art/media, workshop schedule, and decision log.
@@ -33,7 +44,9 @@ Repo: https://github.com/designst3in/art-of-chemex
 **Brand turquoise:** `#4bb4bb` · hover `#3a9ea5`  
 (Also: cream `#F7F1E5`, coffee `#5C3A21`, ink `#2A1F18`.)
 
-Theme files: `theme.css`, `docsify-config.js` (`themeColor`), `course/design-system.md` (Type tokens page). Cache-bust query currently `?v=6`.
+Theme files: `theme.css`, `docsify-config.js` (`themeColor`).  
+**Internal design system (editors):** [`internal/design-system.md`](internal/design-system.md) — catalog, specimens, OG, how to extend. Index: [`internal/README.md`](internal/README.md).  
+`course/design-system.md` is a stub redirect only — **not** in `_sidebar.md`. Cache-bust query currently `?v=7`.
 
 ---
 
@@ -190,7 +203,7 @@ Vendor copy may exist under `assets/vendor/huddi/` for makers; it is **not** wir
 - Do **not** invent patent numbers or URLs.
 - Prefer primary sources: USPTO, MoMA collection records, Chemex company history, museum catalogs.
 - When an image is added under `assets/`, log credit + license in `assets/SOURCES.md` the same day.
-- Keep `> **REVIEW:**` callouts in course pages until items close here.
+- Open REVIEW items live **only here** (§7) — do not reintroduce `> **REVIEW:**` banners on public course pages.
 - Never cite **US2399935** as Chemex.
 
 ## Closed / done highlights

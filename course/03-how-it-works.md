@@ -25,15 +25,13 @@ The patent (US 2,241,368) frames this as a **filtering device** — conical funn
 | Borosilicate glass | Brew temperatures; shows color / clarity |
 | Wood collar | Safe grip on hot glass |
 
-> **REVIEW:** Avoid absolute taste claims. “Cleaner / lighter body” is a teaching talking point vs. metal-filter / immersion methods — cite workshop preference or sensory notes if comparing.
+“Cleaner / lighter body” is a teaching talking point vs. metal-filter / immersion methods — compare with workshop sensory notes rather than absolute claims.
 
 ## Safety & care (light)
 
 - Thermal shock: avoid extreme cold-to-hot glass abuse.
-- Wood collar: keep dry; follow manufacturer care guidance.
+- Wood collar: keep dry; follow manufacturer care guidance ([Chemex About](https://chemexcoffeemaker.com/pages/about-us)).
 - Hot liquid / glass handling brief before brew lab (Module 07 / 08).
-
-> **REVIEW:** Pull official care instructions from [Chemex](https://chemexcoffeemaker.com/pages/about-us) (or retailer) before final handouts.
 
 ## Demo checklist
 
@@ -42,7 +40,6 @@ The patent (US 2,241,368) frames this as a **filtering device** — conical funn
 - [ ] Scale / timer (recommended)
 - [ ] Waste vessel for spent filters
 
-## Assets needed
+## Assets
 
-- Cross-section diagram — can sketch from patent Fig 1 (`/art-of-chemex/assets/patents/US2241368.pdf`)
-- Filter fold diagram — `TODO`
+- Cross-section diagram — sketch from patent Fig 1 (`/art-of-chemex/assets/patents/US2241368.pdf`)

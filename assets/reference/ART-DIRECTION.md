@@ -18,7 +18,7 @@ Working notes for geometry, materials, camera, and raster treatment. Product sti
 | Tie | Leather | Soft fastener; period craft |
 | Filter | Bonded paper | Proprietary thickness / shape |
 
-Palette on site: cream ground, turquoise display, coffee HUD, ink body — see [Type tokens](/art-of-chemex/course/design-system.md).
+Palette on site: cream `#F7F1E5`, turquoise `#4bb4bb`, coffee `#5C3A21`, ink `#2A1F18`.
 
 ## Product reference stills (HQ)
 
@@ -30,7 +30,7 @@ Palette on site: cream ground, turquoise display, coffee HUD, ink body — see [
 | `product/chemex-studio-sage-green.webp` | Studio, sage green ground |
 | `product/chemex-anatomy-design-annotated.jpg` | Anatomy / design annotated |
 
-> **REVIEW:** Confirm rights / attribution before public projection. Treat as **reference** until cleared; list in [SOURCES](../SOURCES.md).
+Treat product stills as workshop **reference**; list credits in [SOURCES](../SOURCES.md).
 
 ## Patent figures (line art)
 
@@ -57,6 +57,5 @@ Suggested placeholders to lock later:
 ## Related
 
 - [Design attributes](/art-of-chemex/course/design-attributes.md)
-- [Type tokens](/art-of-chemex/course/design-system.md)
 - [09 · Art reference](/art-of-chemex/course/09-art-reference.md)
 - Open course photos: `../images/` (Brooklyn CC BY, Unsplash CC0)

@@ -9,7 +9,7 @@
 | Live site | https://designst3in.github.io/art-of-chemex/ |
 | Course modules | `course/*.md` |
 | Design attributes (anatomy) | `course/design-attributes.md` (public sidebar) |
-| Type tokens | `course/design-system.md` + `theme.css` |
+| Type tokens | `internal/design-system.md` + `theme.css` (course stub redirects) |
 | Workshop schedule | `course/08-workshop-run-of-show.md` (APPROVED 90-min) |
 | Brew recipes | `course/07-brew-method.md` |
 | Full decision / REVIEW log | `NOTES.md` |

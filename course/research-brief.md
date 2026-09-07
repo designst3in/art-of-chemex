@@ -42,7 +42,7 @@ The Chemex is a one-piece borosilicate pour-over invented by German-American che
 - **Fig 3:** equal funnel/flask volumes variant
 - **Fig 4:** second embodiment with conventional spout/handle
 
-## Conflicts to flag as REVIEW
+## Source conflicts to note
 
 | Topic | Versions | Teaching note |
 |-------|----------|---------------|

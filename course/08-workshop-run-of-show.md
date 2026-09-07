@@ -48,9 +48,7 @@ Recipes are locked on [07 · Brew Method](07-brew-method.md).
 
 - **24 g** coffee / **200 g** ice / **200 g** water
 - Assemble + explain only (no full in-session steep)
-- External video:
-
-> **REVIEW:** Confirm Stumptown Chemex ice / cold brew YouTube URL before teaching day. Search hint: *"Stumptown Chemex ice / cold brew YouTube"*. Placeholder until locked: `TODO — Stumptown Chemex ice / cold brew YouTube`
+- External video: Stumptown Chemex ice / cold brew (confirm URL before teaching day)
 
 ### Care
 
@@ -60,7 +58,7 @@ Recipes are locked on [07 · Brew Method](07-brew-method.md).
 
 - **Lead facilitator** — narrative + timing (Blocks 1–3 + demos)
 - **Brew assistant** — water, grind, ice staging, safety
-- **Optional** — note-taker for live captures into [NOTES.md](../NOTES.md)
+- **Optional** — note-taker for live timing captures
 
 ## Pre-flight checklist
 
@@ -73,19 +71,19 @@ Recipes are locked on [07 · Brew Method](07-brew-method.md).
 - [ ] Docsify site or PDF backup offline
 - [ ] Allergies / hot-liquid safety brief
 - [ ] Rights-cleared slides only
-- [ ] Stumptown ice YouTube URL confirmed (or REVIEW TODO accepted)
+- [ ] Stumptown ice YouTube URL confirmed
 
 ## Talking points not to invent
 
 - Patents: utility **US 2,241,368** (1941) + design **USD 137,943** (1944) — never US2399935
 - MoMA accession: **51.1943**
 - Patent count: ~**300**, not 3000
-- Flag immigration 1935/1936 and IIT 1956/1958 as open REVIEW items elsewhere
+- Flag immigration 1935/1936 and IIT 1956/1958 as source conflicts (see Research Brief)
 
 ## Post-workshop
 
-- Update [NOTES.md](../NOTES.md) with what ran long/short
+- Note what ran long/short for the next session
 - File new photos/credits in [SOURCES.md](/art-of-chemex/assets/SOURCES.md)
 - Capture Caplan quote source if anyone brings a primary cite
 
-> **REVIEW:** Venue address, date, partner branding, and headcount — TBD by instructor.
+Venue address, date, partner branding, and headcount — set by the instructor for each session.

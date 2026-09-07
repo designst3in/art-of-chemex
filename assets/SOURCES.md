@@ -10,7 +10,7 @@ Full catalog (essays, list-only URLs, figure notes): **[IMAGES-AND-ESSAYS.md](IM
 |------|-------------|-----------------|-----------------|-------|
 | `images/BrooklynMuseum_Chemex_1997.117_CC-BY.jpg` | Chemex, designed 1941 (studio object photo) | Brooklyn Museum — [object](https://www.brooklynmuseum.org/objects/2397) · [Commons file](https://commons.wikimedia.org/wiki/File:Peter_Schlumbohm._Coffee_Maker,_Designed_1941.jpg) | **CC BY 3.0** (Brooklyn Museum photograph) | **Open — OK for course / Pages** |
 | `images/Chemex_Unsplash_ZacharyNewton_CC0.jpg` | Styled Chemex still life | Zachary Newton / Unsplash (also Commons CC0) | **CC0 1.0** | Atmosphere / brew-lab slides |
-| `images/chemex-transparent.png` | Chemex cutout with real alpha (compositing) | Derived via rembg from `reference/product/chemex-studio-white-front-alt.webp` (studio white) | Same rights as source (**REVIEW** — rights TBD) | For OG / overlays; not a new photograph |
+| `images/chemex-transparent.png` | Chemex cutout with real alpha (compositing) | Derived via rembg from `reference/product/chemex-studio-white-front-alt.webp` (studio white) | Same rights as source (rights TBD) | For OG / overlays; not a new photograph |
 | `historical/MoMA_Useful_Objects_in_Wartime_1942.pdf` | MoMA Bulletin Vol. X (Dec 1942–Jan 1943); Chemex on **cover**; checklist #56 @ $6.50 | [MoMA assets PDF](https://assets.moma.org/documents/moma_catalogue_2733_300164646.pdf) | MoMA exhibition bulletin — **link/study OK**; high-res cover art reuse may need clearance | Prefer citing + linking for public decks unless cleared |
 | `images/patents/US2241368-fig-page1.jpg` | USPTO drawing sheet 1 (Figs 1–3) | Rendered from `patents/US2241368.pdf` via pdftoppm | Public domain (U.S. patent) | Inline Docsify embed |
 | `images/patents/US2241368-fig-page2.jpg` | USPTO drawing sheet 2 (Fig 4) | Same | Public domain | Inline Docsify embed |
@@ -30,14 +30,14 @@ Full catalog (essays, list-only URLs, figure notes): **[IMAGES-AND-ESSAYS.md](IM
 
 | File | Description | Source / credit | License / terms | Notes |
 |------|-------------|-----------------|-----------------|-------|
-| `reference/product/chemex-studio-white-front.jpg` | Studio white, front | Workshop HQ ref (user attachment) | **REVIEW** — rights TBD | Internal art reference |
-| `reference/product/chemex-studio-white-front-alt.webp` | Studio white, alt front | Same | **REVIEW** | |
-| `reference/product/chemex-lifestyle-mugs-kitchen.webp` | Lifestyle kitchen + mugs | Same | **REVIEW** | |
-| `reference/product/chemex-studio-sage-green.webp` | Studio sage green | Same | **REVIEW** | |
-| `reference/product/chemex-anatomy-design-annotated.jpg` | Anatomy / design annotated | Same | **REVIEW** | |
+| `reference/product/chemex-studio-white-front.jpg` | Studio white, front | Workshop HQ ref (user attachment) | Rights TBD | Internal art reference |
+| `reference/product/chemex-studio-white-front-alt.webp` | Studio white, alt front | Same | Rights TBD | |
+| `reference/product/chemex-lifestyle-mugs-kitchen.webp` | Lifestyle kitchen + mugs | Same | Rights TBD | |
+| `reference/product/chemex-studio-sage-green.webp` | Studio sage green | Same | Rights TBD | |
+| `reference/product/chemex-anatomy-design-annotated.jpg` | Anatomy / design annotated | Same | Rights TBD | |
 | `reference/ART-DIRECTION.md` | Geometry, materials, camera / PS1 placeholders | Workshop notes | Internal | Links product + patent figs |
 
-Gallery page: [course/09-art-reference.md](../course/09-art-reference.md). Design tokens: [course/design-system.md](../course/design-system.md).
+Gallery page: [course/09-art-reference.md](../course/09-art-reference.md).
 
 ## List-only (do not commit without clearance)
 
@@ -69,4 +69,4 @@ Gallery page: [course/09-art-reference.md](../course/09-art-reference.md). Desig
 - **MoMA bulletin PDF** = study copy checked in; treat cover illustration carefully for commercial/public projection.
 - **MoMA / LIFE / Cooper Hewitt photography** = link for study; clear rights before publishing high-res reproductions.
 
-> **REVIEW:** Before a public workshop projecting MoMA cover art, confirm bulletin reuse terms or use Brooklyn CC BY object photo only.
+Before projecting MoMA cover art publicly, confirm bulletin reuse terms — or use the Brooklyn CC BY object photo only.

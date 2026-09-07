@@ -10,7 +10,7 @@ A workshop exploring the **Chemex** coffee maker as design object, invention, an
 
 The Chemex is an hourglass-shaped pour-over introduced in **1941** by German-American chemist **Dr. Peter Schlumbohm** (1896–1962). Core U.S. utility patent: **[US 2,241,368](https://patents.google.com/patent/US2241368A/en)** (“Filtering device”), filed 1939-04-13, granted **1941-05-06**. Design patent **[USD 137,943](https://patents.google.com/patent/USD137943S/en)** (combined flask and handle) issued **1944-05-23**. Borosilicate vessel, wood collar, and leather tie became mid-century icons — including MoMA accession **[51.1943](https://www.moma.org/collection/works/1847)** and the cover of MoMA’s *Useful Objects in Wartime* bulletin.
 
-This Docsify site is the course home for Abhishek’s *Art of Chemex* workshop: **design + science, then brew**. Start with [Design attributes](course/design-attributes.md) for the object anatomy.
+This site is the course home for the *Art of Chemex* workshop: **design + science, then brew**. Start with [Design attributes](course/design-attributes.md) for the object anatomy.
 
 ## What you will cover
 
@@ -23,7 +23,7 @@ This Docsify site is the course home for Abhishek’s *Art of Chemex* workshop: 
 | 05 · Inventor | Peter Schlumbohm — cited biography |
 | 06 · Design Write-ups | Curatorial reading & label writing |
 | 07 · Brew Method | Hands-on pour-over — hot 40g→640ml (1:16); ice 24g/200g/200g |
-| 08 · Run of Show | Canonical 90-min schedule (approved 2026-09-07) |
+| 08 · Run of Show | Canonical 90-min schedule |
 | 09 · Art reference | HQ product refs + art direction |
 | Design attributes | Anatomy diagram + eight teaching attributes |
 | Research Brief | Timeline table + source links |
@@ -36,32 +36,7 @@ Canonical **90-minute** run of show (60 workshop + ≥30 QA/open brew): kit, tim
 ## How to use this site
 
 - Browse via the **sidebar** (or search).
-- Sections marked `> **REVIEW:**` need iteration before teaching (rights, brew numbers, Caplan original text, date conflicts).
 - Images under `/art-of-chemex/assets/images/`; patent PDF under `/art-of-chemex/assets/patents/` — credits in [SOURCES](/art-of-chemex/assets/SOURCES.md).
-- Open questions in [NOTES.md](NOTES.md); compressed facts in [course/research-brief.md](course/research-brief.md).
+- Compressed facts and timeline: [course/research-brief.md](course/research-brief.md).
 
-## Working together
-
-Abhishek and Coffee Scientist co-manage this repo; approved material ships on GitHub Pages. Collaboration notes and open reviews live in [NOTES.md](NOTES.md).
-
-## Status
-
-**Teach content + schedule:** approved house recipes and canonical 90-min run of show are in course modules 07–08.  
-**OG image:** locked Color-blend layout tokens in [`assets/og-tokens.json`](assets/og-tokens.json); bake at [`assets/og.png`](assets/og.png).  
-**Homepage rewrite:** still pending — do not treat this README as the final landing art direction.  
-**Cold start:** read [`docs/PROJECT.md`](docs/PROJECT.md) then the full log in [`NOTES.md`](NOTES.md) (protocol, type stack, REVIEW list, SHAs).
-
-## GitHub Pages
-
-Enable static hosting from the repo root:
-
-1. Open **Settings → Pages**
-2. Under **Build and deployment**, set **Source** to **Deploy from a branch**
-3. Branch: **main** · folder: **/ (root)**
-4. Save — site URL will appear on the same page (often `https://designst3in.github.io/art-of-chemex/`)
-
-Docsify is client-side; no build step is required. `.nojekyll` is included so GitHub does not process the site with Jekyll.
-
-Asset URLs use **root-absolute** paths (`/art-of-chemex/assets/...`) so images resolve correctly with hash routing on GitHub Pages.
-
-> **REVIEW:** Confirm workshop date, audience, and any partner branding before publishing.
+Hosted on GitHub Pages with Docsify (client-side; no build step).

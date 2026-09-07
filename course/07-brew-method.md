@@ -37,8 +37,7 @@ House recipes below are **canonical** for the approved 90-min run of show ([08 �
 | Water | **200 g** | Hot brew water poured over grounds |
 | Method | Flash / ice Chemex | Hot brew onto ice — not immersion cold brew |
 | In-session demo | **Assemble + explain** | Do **not** run a full steep in the timed demo |
-
-> **REVIEW:** Confirm Stumptown Chemex ice / cold brew YouTube URL before teaching day. Search hint: *"Stumptown Chemex ice / cold brew YouTube"*. Placeholder: `TODO — Stumptown Chemex ice / cold brew YouTube`
+| External video | Stumptown Chemex ice / cold brew | Link to be confirmed before teaching day |
 
 **Teaching sequence (ice demo):**
 
@@ -59,8 +58,7 @@ Connect back to patent language: paper cone + conical vessel as a deliberate fil
 - Expect clarity relative to metal-filter methods.
 - Defects to demo: channeling (uneven bed), grind too fine (stall), grind too coarse (under-extraction / thin / sour).
 - Ice cup: brighter / thinner body is normal for flash-chill; contrast with hot 3-pour in tasting.
-
-> **REVIEW:** Align sensory language with any cupping sheet used in the room.
+- Align sensory language with any cupping sheet used in the room.
 
 ## Kit list
 
@@ -76,8 +74,6 @@ Connect back to patent language: paper cone + conical vessel as a deliberate fil
 
 **Alt filters:** **post-shop only** — not for timed demos.
 
-## Assets needed
+## Assets
 
 - Pour schedule card (PDF/PNG) — hot 40→640 / ice 24·200·200
-- Timer graphic — `TODO`
-- Stumptown ice YouTube URL — `TODO` (REVIEW above)

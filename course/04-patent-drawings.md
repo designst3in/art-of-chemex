@@ -11,7 +11,7 @@ Teach participants how to **read** patent drawings (views, reference numerals, c
 | **Utility** (how it filters) | **US 2,241,368** Filtering device | Granted **1941-05-06** | Functional filtering system (funnel + paper + flask + vent/pour) |
 | **Design** (how it looks) | **USD 137,943** Combined flask and handle | Issued **1944-05-23** | Ornamental hourglass flask + handle silhouette |
 
-> **REVIEW (resolved for teaching):** Cooper Hewitt’s “patented in **1944**” almost certainly points to design patent **USD137943** (issued 1944-05-23), **not** the 1941 utility. Still say “utility 1941 / design 1944” in class so both are clear.
+**Teaching note:** Cooper Hewitt’s “patented in **1944**” points to design patent **USD137943** (issued 1944-05-23), **not** the 1941 utility. Say “utility 1941 / design 1944” so both are clear.
 
 ## Core utility — US 2,241,368
 
@@ -106,6 +106,4 @@ Full figure notes: [IMAGES-AND-ESSAYS](/art-of-chemex/assets/IMAGES-AND-ESSAYS.m
 ## Classroom activity
 
 - Pair exercise: match utility Fig 1 parts to the physical Chemex; then match design elevations to the same object.
-- Optional: US2411340 iced-coffee / deep-groove story as a later utility evolution.
-
-> **REVIEW:** US2411340 / US2681154 are Chemex-family — include in advanced track; keep intro focused on 2241368 + D137943.
+- Optional (advanced track): US2411340 iced-coffee / deep-groove story and US2681154 — keep the intro focused on **2241368 + D137943**.

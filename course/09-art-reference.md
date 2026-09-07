@@ -1,8 +1,8 @@
 # 09 · Art reference
 
-HQ product stills for form, materials, and shot language. Prefer `class="smooth"` on photos. Patent line art stays crisp (see design system image rules).
+HQ product stills for form, materials, and shot language. Prefer `class="smooth"` on photos. Patent line art stays crisp (`img.raster` / path heuristic).
 
-> **REVIEW:** Rights status for these five product refs — treat as internal reference until cleared. Credits: [SOURCES](/art-of-chemex/assets/SOURCES.md) · direction: [ART-DIRECTION.md](/art-of-chemex/assets/reference/ART-DIRECTION.md).
+Credits: [SOURCES](/art-of-chemex/assets/SOURCES.md) · direction: [ART-DIRECTION.md](/art-of-chemex/assets/reference/ART-DIRECTION.md). Treat studio product refs as art reference for the workshop.
 
 ## Studio — white front
 
@@ -33,8 +33,7 @@ Already in-repo for teaching decks:
 
 See [04 · Patent Drawings](04-patent-drawings.md) and files under `/art-of-chemex/assets/images/patents/`.
 
-## Next
+## Related
 
-- Lock camera-move list in [ART-DIRECTION.md](/art-of-chemex/assets/reference/ART-DIRECTION.md)  
-- PS1 raster treatment TBD  
-- Cross-link specimens on [Design system](design-system.md)
+- Camera / shot language: [ART-DIRECTION.md](/art-of-chemex/assets/reference/ART-DIRECTION.md)
+- Open course photos: Brooklyn Museum (CC BY) · Unsplash / Zachary Newton (CC0)

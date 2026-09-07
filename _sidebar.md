@@ -21,7 +21,3 @@
   * [Image & Patent Sources](/assets/SOURCES.md)
   * [Images & Essays Catalog](/assets/IMAGES-AND-ESSAYS.md)
   * [Art direction](/assets/reference/ART-DIRECTION.md)
-
-* [Type tokens](/course/design-system.md)
-
-* [Notes](/NOTES.md)

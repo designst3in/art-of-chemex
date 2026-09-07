@@ -44,12 +44,9 @@ Ask participants to describe the object **without** saying “coffee.” What me
 
 Wartime production later secured Corning / Pyrex glass under material constraints — useful context for Module 01.
 
-> **REVIEW:** Confirm current Chemex Corp. production materials (collar wood species, tie, glass source) vs. historic variants before handouts. Brand: [About Us](https://chemexcoffeemaker.com/pages/about-us).
-
-> **REVIEW:** MoMA / LIFE photography for slides needs **rights clearance** — do not hotlink museum assets into public Pages without permission. Brooklyn Commons image is OK for draft teaching (CC).
+Current production materials (collar wood species, tie, glass source) can differ from historic variants — see brand [About Us](https://chemexcoffeemaker.com/pages/about-us). For slides, prefer rights-cleared assets; the Brooklyn Commons photo is open-license for handouts.
 
 ## Assets
 
 - Product photo (open): `/art-of-chemex/assets/images/BrooklynMuseum_Chemex_1997.117_CC-BY.jpg`
 - Lifestyle photo (CC0): `/art-of-chemex/assets/images/Chemex_Unsplash_ZacharyNewton_CC0.jpg`
-- Detail shots (collar, spout, filter fold) — `TODO`

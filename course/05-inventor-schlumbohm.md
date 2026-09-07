@@ -15,13 +15,11 @@ Lens for this workshop: how a **laboratory mindset** shaped a domestic object.
 ## Biographical frame (sourced)
 
 1. **Training.** Chemistry doctorate, University of Berlin (~1919–1927 era in archival bios). Secondary sources note Gestalt psychology studies (Köhler) — useful for “seeing wholes” in object design, but keep soft unless assigning primary archival material.
-2. **U.S. entry.** First U.S. trip **1931**; sells vacuum-bottle patents to American Thermos ([Lemelson](https://lemelson.mit.edu/resources/peter-schlumbohm)). Permanent relocation to New York: **1935** (MoMA) vs **1936** (Lemelson / Chemex) — see REVIEW.
+2. **U.S. entry.** First U.S. trip **1931**; sells vacuum-bottle patents to American Thermos ([Lemelson](https://lemelson.mit.edu/resources/peter-schlumbohm)). Permanent relocation to New York: **1935** (MoMA) vs **1936** (Lemelson / Chemex) — present both.
 3. **Inventor practice.** Independent, prolific patenting — often summarized as “about **300**” patents across careers. **Do not** say “3000.”
 4. **Chemex Corp.** Incorporated New York **1939**; refrigeration prototype shown at NY World’s Fair (Chemex-at-Fair claims are weaker — flag if using).
 5. **Chemex.** Filtering-device patent filed 1939, granted **1941-05-06**; product introduction **1941**; MoMA wartime cover and accession **51.1943**.
-6. **Death & remembrance.** Dies **1962**. Designer/writer **Ralph Caplan** remembered him in a frequently quoted line about a “synthesis of logic and madness.”
-
-> **REVIEW:** Caplan eulogy — obtain **original text + citation** (publication, date) before putting the phrase in quotes on slides. Do not treat secondary paraphrase as a verbatim quote.
+6. **Death & remembrance.** Dies **1962**. Designer/writer **Ralph Caplan** is often cited for a line about a “synthesis of logic and madness” — treat secondary paraphrases carefully; prefer a primary cite before quoting on slides.
 
 ## Teaching beats
 
@@ -59,11 +57,7 @@ Lens for this workshop: how a **laboratory mindset** shaped a domestic object.
 - LIFE / Time archive portraits cited via [Collectors Weekly — Mr. Chemex](https://www.collectorsweekly.com/articles/mr-chemex/) — license via Getty/Time; do not scrape
 - [Hagley — Marc Harrison papers](https://findingaids.hagley.org/repositories/3/resources/983) — contact Hagley for reproduction
 
-## Assets needed (still open)
+## Notes
 
-- Portrait (rights-cleared) — `TODO`
-- Caplan original excerpt (permission / fair-use citation) — `TODO`
-
-> **REVIEW:** Immigration **1935** (MoMA) vs **1936** (Lemelson / brand). Teach the conflict; don’t paper over it.
-
-> **REVIEW:** Patent count — use “~**300**” / “hundreds,” never “3000.”
+- Immigration **1935** (MoMA) vs **1936** (Lemelson / brand) — teach the conflict; don’t paper over it.
+- Patent count: use “~**300**” / “hundreds,” never “3000.”

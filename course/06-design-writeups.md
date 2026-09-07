@@ -18,10 +18,7 @@ Practice writing and reading **curatorial / critical** language about the Chemex
 | Inventor bio | [Lemelson — Schlumbohm](https://lemelson.mit.edu/resources/peter-schlumbohm) | Career sketch |
 | Brand history | [Chemex About Us](https://chemexcoffeemaker.com/pages/about-us) | Company narrative (treat as primary-brand, not neutral) |
 
-> **REVIEW:** Cooper Hewitt “patented **1944**” — teach as design patent **USD137943** (issued 1944-05-23), distinct from utility **US2241368** (1941). Assign the essay with that clarification.
-
-> **REVIEW:** Do not paste long MoMA / LIFE / magazine text into this repo. Summarize; quote short phrases only with attribution; clear rights for any reproduced label photography.
-
+When assigning Cooper Hewitt, clarify “patented **1944**” as design patent **USD137943** (issued 1944-05-23), distinct from utility **US2241368** (1941). Prefer summarizing museum / magazine text; quote short phrases only with attribution.
 
 ## Curator’s Eye — John Stuart Gordon (MODERN Magazine)
 
@@ -38,7 +35,7 @@ Short reading for class discussion. Full essay: [Curator’s Eye: Chemex Coffeem
 - Borosilicate / Pyrex / Corning material story
 - Kitchen-as-lab; atomic-age domesticity
 
-> **REVIEW:** Paraphrase/summary for teaching — do not paste long magazine text. Prefer linking out; clear rights if projecting scans.
+Prefer linking out to the full essay rather than pasting long magazine text.
 
 ## Writing prompts for participants
 
@@ -55,8 +52,8 @@ Collect 2–3 strong participant labels; revise live for tone (neutral, precise,
 
 > Peter Schlumbohm (German-American, 1896–1962). *Chemex Coffee Maker,* designed 1941. Borosilicate glass, wood, leather. One-piece pour-over adapting laboratory funnel and flask forms; thick bonded paper filter. Museum of Modern Art, accession 51.1943.
 
-> **REVIEW:** Replace or expand with instructor-approved label after comparing MoMA / Cooper Hewitt wall text (do not invent MoMA’s exact wording).
+*(Workshop starter — expand after comparing MoMA / Cooper Hewitt wall text; do not invent museum wording.)*
 
-## Assets needed
+## Assets
 
-- Side-by-side product photos for comparison exercise — open Chemex images in `/art-of-chemex/assets/images/`; add comparator dripper photo with rights note
+- Side-by-side product photos for comparison exercise — open Chemex images in `/art-of-chemex/assets/images/`
