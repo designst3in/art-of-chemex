@@ -1,0 +1,129 @@
+:root {
+  --theme-color: #5c4a3a;
+  --base-font-size: 16px;
+  --sidebar-width: 280px;
+  --content-max-width: 860px;
+}
+
+body {
+  font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  background: #f7f3eb;
+  color: #2c2a26;
+  line-height: 1.7;
+}
+
+.sidebar {
+  background: #faf8f4;
+  border-right: 1px solid #e8e2d6;
+}
+
+.sidebar > h1 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin: 1.25rem 0 0.5rem;
+}
+
+.sidebar ul li a {
+  color: #4a453c;
+  font-weight: 450;
+}
+
+.sidebar ul li.active > a {
+  color: var(--theme-color);
+  font-weight: 600;
+}
+
+.content {
+  background: #f7f3eb;
+}
+
+.markdown-section {
+  background: #fffcf7;
+  border-radius: 12px;
+  padding: 2.5rem 2.75rem;
+  margin: 1.5rem auto;
+  box-shadow: 0 1px 3px rgba(44, 42, 38, 0.06);
+  border: 1px solid #ebe4d8;
+  max-width: var(--content-max-width);
+}
+
+.markdown-section h1,
+.markdown-section h2,
+.markdown-section h3 {
+  font-weight: 650;
+  letter-spacing: -0.025em;
+  color: #1f1d1a;
+  border-bottom: none;
+}
+
+.markdown-section h1 {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.markdown-section h2 {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid #ebe4d8;
+}
+
+.markdown-section blockquote {
+  border-left: 4px solid #c4a882;
+  background: #f5efe6;
+  color: #3d3830;
+  margin: 1.25rem 0;
+  padding: 0.85rem 1.15rem;
+  border-radius: 0 8px 8px 0;
+}
+
+.markdown-section blockquote p {
+  margin: 0.35rem 0;
+}
+
+.markdown-section code {
+  background: #f0ebe3;
+  color: #5c4a3a;
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+}
+
+.markdown-section pre {
+  background: #2c2a26 !important;
+  border-radius: 8px;
+}
+
+.markdown-section a {
+  color: #7a5c3e;
+  text-decoration: none;
+  border-bottom: 1px solid #d4c4b0;
+}
+
+.markdown-section a:hover {
+  color: var(--theme-color);
+  border-bottom-color: var(--theme-color);
+}
+
+.search .input-wrap {
+  margin: 0.75rem 1rem;
+}
+
+.search input {
+  background: #fff;
+  border: 1px solid #e0d8cc;
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+}
+
+.app-name-link {
+  color: var(--theme-color) !important;
+}
+
+@media (max-width: 768px) {
+  .markdown-section {
+    margin: 0.75rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+  }
+}
