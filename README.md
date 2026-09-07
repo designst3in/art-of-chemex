@@ -40,6 +40,10 @@ Canonical **90-minute** run of show (60 workshop + ≥30 QA/open brew): kit, tim
 - Images under `/art-of-chemex/assets/images/`; patent PDF under `/art-of-chemex/assets/patents/` — credits in [SOURCES](/art-of-chemex/assets/SOURCES.md).
 - Open questions in [NOTES.md](NOTES.md); compressed facts in [course/research-brief.md](course/research-brief.md).
 
+## Working together
+
+Abhishek and Coffee Scientist co-manage this repo; approved material ships on GitHub Pages. Collaboration notes and open reviews live in [NOTES.md](NOTES.md).
+
 ## GitHub Pages
 
 Enable static hosting from the repo root:

@@ -2,6 +2,17 @@
 
 Track fact-checks, missing sources, and open questions for the *Art of Chemex* workshop site.
 
+## Working protocol
+
+- This repo holds everything: course, assets, type tokens, art/media.
+- Abhishek and Coffee Scientist both manage content.
+- Approved material is public on GitHub Pages.
+- Coffee Scientist gates public updates: keep structure clean and not stale; reconcile chat decisions vs repo vs user edits.
+- Sync and push are the same action.
+- Log decisions and open **REVIEW** items here in `NOTES.md`; rely on git history for rollback.
+- Over time, design system, art, media, and content design all live in this repo.
+- Homepage + OG image remain gated until OG lab sign-off.
+
 ## Status legend
 
 - **TODO** — content or asset not yet added
@@ -37,6 +48,7 @@ Track fact-checks, missing sources, and open questions for the *Art of Chemex* w
 
 ## Change log
 
+- **2026-09-07** — Added Working protocol (repo as source of truth; dual editors; Coffee Scientist gates public updates; sync=push; decisions/REVIEW in NOTES; homepage+OG still gated).
 - **2026-09-07** — Public site: hide HUDDI; add `course/design-attributes.md` anatomy consolidation; sidebar → Design attributes near top; design-system reframed as Type tokens (no HUDDI catalog).
 - **2026-09-07** — Workshop schedule **approved** as canonical (not draft). Updated `course/08-workshop-run-of-show.md` (90-min table, kit checklist, timing notes) and `course/07-brew-method.md` (hot 40g→640ml 1:16; ice 24g/200g ice/200g water). Stumptown ice YouTube URL still REVIEW TODO. README workshop cross-link added.
 
