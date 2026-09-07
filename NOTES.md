@@ -96,7 +96,7 @@ Locked in OG lab (`/workspace/chemex-og-lab` on the shared box) and mirrored to 
 | opsz | **144** |
 | Title size | **113 px** |
 | Image scale | **95%** |
-| Subtitle | **HISTORY · DESIGN · BREW** |
+| Subtitle | **none** (removed) |
 | Background | `#4bb4bb` |
 | Title color | white/cream (`#F7F1E5` in tokens; lab bake also used `#FFFFFF`) |
 | Credits | Silkscreen coffee `#5C3A21`: **DESIGN SCIENTIST / × / KAT & KIN** |
@@ -156,6 +156,8 @@ Vendor copy may exist under `assets/vendor/huddi/` for makers; it is **not** wir
 
 ### 2026-09-07 — documentation + OG bake promotion
 
+- Rebuilt OG from `chemex-studio-white-front.jpg` + turquoise Color blend; removed HISTORY/DESIGN/BREW tag; refreshed `assets/og.png` + tokens.
+
 - Expanded this NOTES into full project log (protocol, type, workshop, brew, OG lock, hygiene, REVIEW, URLs).
 - Added `docs/PROJECT.md` cold-start TL;DR; `assets/og-tokens.json` locked tokens; copied Color-blend `og-final.png` → `assets/og.png`; OG meta in `index.html`; README Status blurb.
 
@@ -196,7 +198,7 @@ Vendor copy may exist under `assets/vendor/huddi/` for makers; it is **not** wir
 
 ## OG image (approved)
 
-- **2026-09-07** — FINAL `assets/og.png` (1200×630). White-bg Chemex right ~95% (no rembg); `#4bb4bb` Color blend; cream title Flex 90/112/144 ~113px left over image; coffee Silkscreen subtitle + BL credits. See `assets/og-tokens.json`. Desktop tab hygiene: close unused OG lab tabs after bake.
+- **2026-09-07** — FINAL `assets/og.png` (1200×630). Source `chemex-studio-white-front.jpg` (not alt/rembg); full-frame `#4bb4bb` Color blend; cream title Flex 90/112/144 ~113px left over image; coffee Silkscreen BL credits; **subtitle removed**. See `assets/og-tokens.json`.
 
 ## Conventions
 

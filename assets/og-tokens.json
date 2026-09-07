@@ -3,9 +3,10 @@
   "method": "White-bg Chemex photo as base (NOT rembg); full-frame #4bb4bb Color blend (Photoshop Color / CSS mix-blend-mode:color = SetLum(Cs, Lum(Cb))); type over image.",
   "blendMode": "color",
   "tint": "#4bb4bb",
-  "basePhoto": "/workspace/art-of-chemex/assets/reference/product/chemex-studio-white-front-alt.webp",
+  "sourcePhoto": "chemex-studio-white-front.jpg",
+  "basePhoto": "/workspace/art-of-chemex/assets/reference/product/chemex-studio-white-front.jpg",
   "photoScale": 0.95,
-  "photoAnchorX": 0.72,
+  "photoAnchorX": 0.48,
   "transparentCutoutUsed": false,
   "title": {
     "text": "Art of Chemex",
@@ -17,11 +18,7 @@
     "sizePx": 113,
     "position": "left over image"
   },
-  "subtitle": {
-    "text": "HISTORY \u00b7 DESIGN \u00b7 BREW",
-    "color": "#5C3A21",
-    "font": "Silkscreen Regular 400"
-  },
+  "subtitle": null,
   "credits": {
     "text": [
       "DESIGN SCIENTIST",
@@ -32,6 +29,6 @@
     "font": "Silkscreen Regular 400",
     "position": "bottom-left"
   },
-  "layout": "Chemex right; type left over image layer",
+  "layout": "Chemex under type (image layer then type on top); no subtitle tag",
   "approved": "2026-09-07"
 }
