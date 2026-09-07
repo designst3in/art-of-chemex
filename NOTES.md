@@ -13,20 +13,28 @@ Track fact-checks, missing sources, and open questions for the *Art of Chemex* w
 | ID | Location | Item | Status |
 |----|----------|------|--------|
 | N1 | README | Workshop date / audience / branding | REVIEW |
-| N2 | 01-history | Exact introduction year / first sale context | REVIEW |
-| N3 | 02-design | MoMA accession / collection page URL | TODO |
-| N4 | 03-how-it-works | Filter paper specs (bonded vs unbonded) | REVIEW |
-| N5 | 04-patents | Real USPTO / Google Patents links & numbers | TODO |
-| N6 | 05-inventor | Biographical sources for Schlumbohm | TODO |
-| N7 | 06-writeups | Curatorial quotes with attribution | TODO |
-| N8 | 07-brew | Preferred recipe ratios for this workshop | REVIEW |
-| N9 | 08-run-of-show | Timing for venue / group size | REVIEW |
-| N10 | assets | Image credits in SOURCES.md | TODO |
+| N2 | 01-history | Immigration 1935 (MoMA) vs 1936 (Lemelson/Chemex) | REVIEW |
+| N3 | 01-history | IIT “100 best” 1956 vs 1958 | REVIEW |
+| N4 | 01-history | LIFE Beautilities exact issue date | REVIEW |
+| N5 | 02-design | Current production materials vs historic | REVIEW |
+| N6 | 02 / SOURCES | MoMA / LIFE image clearance for public slides | REVIEW |
+| N7 | 04-patents | Utility US2241368 (1941) + design USD137943 (1944) | DONE |
+| N8 | 04 / 06 | Cooper Hewitt “patented 1944” → USD137943 | DONE (clarified) |
+| N9 | 05-inventor | Caplan “logic and madness” — original text + cite | REVIEW |
+| N10 | 05-inventor | Patent count ~300 (never 3000) | DONE |
+| N11 | 07-brew | House recipe dose / yield / pour schedule | REVIEW (instructor TBD) |
+| N12 | 08-run-of-show | Venue, date, headcount timing | REVIEW |
+| N13 | assets | Brooklyn + Unsplash + patents + MoMA bulletin | DONE |
+| N14 | research-brief | Timeline + links + design patent | DONE |
+| N15 | global | Never cite US2399935 as Chemex | DONE |
+| N16 | assets | IMAGES-AND-ESSAYS catalog checked in | DONE |
+| N17 | 04-patents | Advanced track: US2411340 / US2681154 | REVIEW (optional depth) |
 
 ## Conventions
 
-- Do **not** invent patent numbers or URLs. Use `TODO` until a primary source is confirmed.
-- Prefer primary sources: USPTO, MoMA collection records, Chemex company history, peer-reviewed or museum catalogs.
+- Do **not** invent patent numbers or URLs.
+- Prefer primary sources: USPTO, MoMA collection records, Chemex company history, museum catalogs.
 - When an image is added under `assets/`, log credit + license in `assets/SOURCES.md` the same day.
+- Keep `> **REVIEW:**` callouts in course pages until items close here.
 
 > **REVIEW:** Keep this log updated as modules move from scaffold to teach-ready.

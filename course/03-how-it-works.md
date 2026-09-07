@@ -2,38 +2,47 @@
 
 ## Brewing principle
 
-Chemex is a **pour-over / drip** method: hot water extracts coffee through a bed of grounds held in a paper filter; brew collects in the lower chamber of the same glass vessel.
+Chemex is a **pour-over / drip** method: hot water extracts coffee through a bed of grounds held in a thick paper filter; brew collects in the lower chamber of the **same** glass vessel.
 
-## Flow path (scaffold)
+The patent (US 2,241,368) frames this as a **filtering device** — conical funnel + paper cone + flask-like receiver, with a groove that vents air while pouring.
 
-1. Fold and seat the Chemex filter in the upper cone.
-2. Add ground coffee; optionally bloom with a small water pour.
-3. Continue pouring in stages; liquid passes through grounds + paper into the lower bulb.
-4. Remove filter; serve from the spout — the wood collar remains the handle.
+## Flow path
+
+1. Fold and seat the Chemex filter in the upper cone (bonded paper; multi-layer fold on one side).
+2. Rinse filter with hot water; discard rinse (preheats glass, removes paper taste).
+3. Add ground coffee; optionally **bloom** with a small pour (~2× coffee weight, 30–45 s).
+4. Continue pouring in stages; liquid passes through grounds + paper into the lower bulb.
+5. Remove filter; serve from the spout — the wood collar is the handle.
 
 ## Design ↔ function
 
-- **Hourglass:** separates brew bed from finished coffee in one piece.
-- **Thick paper filter:** associated with a clean, low-sediment cup (taste is a teaching talking point, not a universal claim).
-- **Borosilicate glass:** tolerates brew temperatures; shows color/clarity.
+| Feature | Function |
+|---------|----------|
+| Hourglass one-piece | Separates brew bed from finished coffee; no separate carafe |
+| ~60° upper cone | Matches filter geometry; even bed depth for drip |
+| Groove / lip | Pour spout **and** air vent so brew can exit without vacuum lock |
+| Thick bonded paper | Captures more oils and fines than typical drip paper → high clarity, lighter body |
+| Borosilicate glass | Brew temperatures; shows color / clarity |
+| Wood collar | Safe grip on hot glass |
 
-> **REVIEW:** Avoid absolute taste claims. Cite sensory literature or workshop preference notes if making comparative statements vs. metal filters / immersion methods.
+> **REVIEW:** Avoid absolute taste claims. “Cleaner / lighter body” is a teaching talking point vs. metal-filter / immersion methods — cite workshop preference or sensory notes if comparing.
 
 ## Safety & care (light)
 
 - Thermal shock: avoid extreme cold-to-hot glass abuse.
-- Wood collar: generally keep dry; check manufacturer care guidance.
+- Wood collar: keep dry; follow manufacturer care guidance.
+- Hot liquid / glass handling brief before brew lab (Module 07 / 08).
 
-> **REVIEW:** Pull official care instructions from Chemex (or retailer) before final handouts.
+> **REVIEW:** Pull official care instructions from [Chemex](https://chemexcoffeemaker.com/pages/about-us) (or retailer) before final handouts.
 
 ## Demo checklist
 
-- [ ] Water just off boil
-- [ ] Grind size appropriate for pour-over
-- [ ] Scale / timer (optional but recommended)
+- [ ] Water just off boil (~92–96 °C teaching range)
+- [ ] Grind size appropriate for pour-over (medium-coarse starting point)
+- [ ] Scale / timer (recommended)
 - [ ] Waste vessel for spent filters
 
 ## Assets needed
 
-- Cross-section diagram — `TODO`
+- Cross-section diagram — can sketch from patent Fig 1 (`assets/patents/US2241368.pdf`)
 - Filter fold diagram — `TODO`
