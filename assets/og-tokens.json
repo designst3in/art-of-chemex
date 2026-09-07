@@ -1,15 +1,37 @@
 {
-  "title": "Art of Chemex",
-  "subtitle": "HISTORY · DESIGN · BREW",
-  "wght": 90,
-  "wdth": 112,
-  "opsz": 144,
-  "titleSizePx": 113,
-  "imageScale": 95,
-  "bg": "#4bb4bb",
-  "titleColor": "#F7F1E5",
-  "subtitleColor": "#5C3A21",
-  "credits": ["DESIGN SCIENTIST", "×", "KAT & KIN"],
-  "method": "white-bg photo + Color-blend #4bb4bb; type over image",
-  "reject": "rembg transparent cutout for OG"
+  "canvas": "1200x630",
+  "method": "White-bg Chemex photo as base (NOT rembg); full-frame #4bb4bb Color blend (Photoshop Color / CSS mix-blend-mode:color = SetLum(Cs, Lum(Cb))); type over image.",
+  "blendMode": "color",
+  "tint": "#4bb4bb",
+  "basePhoto": "/workspace/art-of-chemex/assets/reference/product/chemex-studio-white-front-alt.webp",
+  "photoScale": 0.95,
+  "photoAnchorX": 0.72,
+  "transparentCutoutUsed": false,
+  "title": {
+    "text": "Art of Chemex",
+    "color": "#F7F1E5",
+    "font": "Google Sans Flex",
+    "wght": 90,
+    "wdth": 112,
+    "opsz": 144,
+    "sizePx": 113,
+    "position": "left over image"
+  },
+  "subtitle": {
+    "text": "HISTORY \u00b7 DESIGN \u00b7 BREW",
+    "color": "#5C3A21",
+    "font": "Silkscreen Regular 400"
+  },
+  "credits": {
+    "text": [
+      "DESIGN SCIENTIST",
+      "\u00d7",
+      "KAT & KIN"
+    ],
+    "color": "#5C3A21",
+    "font": "Silkscreen Regular 400",
+    "position": "bottom-left"
+  },
+  "layout": "Chemex right; type left over image layer",
+  "approved": "2026-09-07"
 }

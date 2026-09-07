@@ -181,6 +181,10 @@ Vendor copy may exist under `assets/vendor/huddi/` for makers; it is **not** wir
 - **REVIEW** — draft present; needs verification before teaching  
 - **DONE** — verified / approved  
 
+## OG image (approved)
+
+- **2026-09-07** — FINAL `assets/og.png` (1200×630). White-bg Chemex right ~95% (no rembg); `#4bb4bb` Color blend; cream title Flex 90/112/144 ~113px left over image; coffee Silkscreen subtitle + BL credits. See `assets/og-tokens.json`. Desktop tab hygiene: close unused OG lab tabs after bake.
+
 ## Conventions
 
 - Do **not** invent patent numbers or URLs.
