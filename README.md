@@ -30,6 +30,13 @@ This Docsify site is the course home for the *Art of Chemex* workshop: history, 
 
 ## GitHub Pages
 
-Enable Pages from **Settings → Pages → Deploy from branch → `main` / `/ (root)`**. A simple workflow is also provided under `.github/workflows/pages.yml`.
+Enable static hosting from the repo root:
+
+1. Open **Settings → Pages**
+2. Under **Build and deployment**, set **Source** to **Deploy from a branch**
+3. Branch: **main** · folder: **/ (root)**
+4. Save — site URL will appear on the same page (often `https://designst3in.github.io/art-of-chemex/`)
+
+Docsify is client-side; no build step is required. `.nojekyll` is included so GitHub does not process the site with Jekyll.
 
 > **REVIEW:** Confirm workshop date, audience, and any partner branding before publishing.
