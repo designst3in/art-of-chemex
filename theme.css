@@ -1,81 +1,152 @@
+/* Art of Chemex — ADD-dub art direction tokens
+   cream #F7F1E5 · turquoise #1AA7A0 · coffee #5C3A21 · ink #2A1F18 */
+
+@font-face {
+  font-family: 'Google Sans Flex';
+  src: url('/art-of-chemex/assets/fonts/GoogleSansFlex.woff2') format('woff2');
+  font-weight: 1 1000;
+  font-stretch: 25% 151%;
+  font-display: swap;
+}
+
 :root {
-  --theme-color: #5c4a3a;
+  --cream: #F7F1E5;
+  --turquoise: #1AA7A0;
+  --turquoise-hover: #158F89;
+  --coffee: #5C3A21;
+  --ink: #2A1F18;
+  --theme-color: #1AA7A0;
   --base-font-size: 16px;
   --sidebar-width: 280px;
-  --content-max-width: 860px;
+  --content-max-width: 42rem;
+  --border-soft: rgba(92, 58, 33, 0.18);
+}
+
+/* ── HUD / Silkscreen treatment ── */
+.hud-type,
+.sidebar ul li a,
+.sidebar-nav,
+.markdown-section h2,
+.markdown-section h3,
+.markdown-section h4 {
+  font-family: 'Silkscreen', monospace;
+  color: var(--coffee);
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: unset;
+  font-smooth: never;
+  text-rendering: geometricPrecision;
+  letter-spacing: 0;
 }
 
 body {
-  font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
-  background: #f7f3eb;
-  color: #2c2a26;
+  font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  font-size: 16.5px;
+  font-weight: 400;
+  background: var(--cream);
+  color: var(--ink);
   line-height: 1.7;
 }
 
 .sidebar {
-  background: #faf8f4;
-  border-right: 1px solid #e8e2d6;
+  background: var(--cream);
+  border-right: 1px solid var(--border-soft);
 }
 
-.sidebar > h1 {
-  font-size: 1.15rem;
-  font-weight: 600;
+.sidebar > h1.app-name,
+.app-name,
+.app-name-link {
+  font-family: 'Google Sans Flex', sans-serif !important;
+  font-weight: 1 !important;
+  font-variation-settings: 'wght' 1, 'wdth' 100, 'opsz' 144;
+  font-size: clamp(1.25rem, 2.5vw, 1.75rem) !important;
+  color: var(--turquoise) !important;
   letter-spacing: -0.02em;
   margin: 1.25rem 0 0.5rem;
+  line-height: 1.15;
+  -webkit-font-smoothing: antialiased;
 }
 
 .sidebar ul li a {
-  color: #4a453c;
-  font-weight: 450;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--coffee);
+  line-height: 1.4;
 }
 
 .sidebar ul li.active > a {
-  color: var(--theme-color);
-  font-weight: 600;
+  color: var(--turquoise);
+  font-weight: 700;
 }
 
 .content {
-  background: #f7f3eb;
+  background: var(--cream);
 }
 
 .markdown-section {
-  background: #fffcf7;
-  border-radius: 12px;
+  background: var(--cream);
+  border-radius: 0;
   padding: 2.5rem 2.75rem;
   margin: 1.5rem auto;
-  box-shadow: 0 1px 3px rgba(44, 42, 38, 0.06);
-  border: 1px solid #ebe4d8;
+  box-shadow: none;
+  border: 1px solid var(--border-soft);
   max-width: var(--content-max-width);
-}
-
-.markdown-section h1,
-.markdown-section h2,
-.markdown-section h3 {
-  font-weight: 650;
-  letter-spacing: -0.025em;
-  color: #1f1d1a;
-  border-bottom: none;
+  color: var(--ink);
+  font-family: 'Inter', sans-serif;
+  font-size: 16.5px;
+  line-height: 1.7;
 }
 
 .markdown-section h1 {
-  font-size: 2rem;
-  margin-bottom: 0.75rem;
+  font-family: 'Google Sans Flex', sans-serif;
+  font-weight: 1;
+  font-variation-settings: 'wght' 1, 'wdth' 100, 'opsz' 144;
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  color: var(--turquoise);
+  border-bottom: none;
+  margin: 0 0 1rem;
+  -webkit-font-smoothing: antialiased;
 }
 
 .markdown-section h2 {
-  font-size: 1.4rem;
+  font-size: 24px;
+  font-weight: 700;
   margin-top: 2rem;
-  padding-bottom: 0.35rem;
-  border-bottom: 1px solid #ebe4d8;
+  margin-bottom: 0.75rem;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-soft);
+  line-height: 1.25;
+}
+
+.markdown-section h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: none;
+  line-height: 1.35;
+}
+
+.markdown-section h4 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 1.25rem;
+  border-bottom: none;
+}
+
+.markdown-section p,
+.markdown-section li {
+  max-width: 42rem;
 }
 
 .markdown-section blockquote {
-  border-left: 4px solid #c4a882;
-  background: #f5efe6;
-  color: #3d3830;
+  border-left: 4px solid var(--coffee);
+  background: rgba(92, 58, 33, 0.06);
+  color: var(--ink);
   margin: 1.25rem 0;
   padding: 0.85rem 1.15rem;
-  border-radius: 0 8px 8px 0;
+  border-radius: 0;
 }
 
 .markdown-section blockquote p {
@@ -83,26 +154,50 @@ body {
 }
 
 .markdown-section code {
-  background: #f0ebe3;
-  color: #5c4a3a;
-  padding: 0.15em 0.4em;
-  border-radius: 4px;
+  background: rgba(92, 58, 33, 0.08);
+  color: var(--coffee);
+  font-family: 'Silkscreen', monospace;
+  font-size: 14px;
+  padding: 0.1em 0.35em;
+  border-radius: 0;
+  -webkit-font-smoothing: none;
+  font-smooth: never;
+  text-rendering: geometricPrecision;
 }
 
 .markdown-section pre {
-  background: #2c2a26 !important;
-  border-radius: 8px;
+  background: var(--ink) !important;
+  border-radius: 0;
+  border: 1px solid var(--border-soft);
 }
 
 .markdown-section a {
-  color: #7a5c3e;
+  color: var(--turquoise);
   text-decoration: none;
-  border-bottom: 1px solid #d4c4b0;
+  border-bottom: 1px solid rgba(26, 167, 160, 0.35);
 }
 
 .markdown-section a:hover {
-  color: var(--theme-color);
-  border-bottom-color: var(--theme-color);
+  color: var(--turquoise-hover);
+  border-bottom-color: var(--turquoise-hover);
+}
+
+.markdown-section img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--border-soft);
+}
+
+/* Patent / pixel art: crisp; photos opt into .smooth */
+img.raster,
+img.pixel,
+.markdown-section img[src*="patents"] {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+img.smooth {
+  image-rendering: auto;
 }
 
 .search .input-wrap {
@@ -111,19 +206,28 @@ body {
 
 .search input {
   background: #fff;
-  border: 1px solid #e0d8cc;
-  border-radius: 8px;
+  border: 1px solid var(--border-soft);
+  border-radius: 0;
   padding: 0.5rem 0.75rem;
+  font-family: 'Inter', sans-serif;
+  color: var(--ink);
 }
 
-.app-name-link {
-  color: var(--theme-color) !important;
+.sidebar-toggle {
+  background-color: transparent;
+}
+
+.sidebar-toggle span {
+  background-color: var(--coffee);
 }
 
 @media (max-width: 768px) {
   .markdown-section {
     margin: 0.75rem;
     padding: 1.5rem;
-    border-radius: 8px;
+  }
+
+  .markdown-section h1 {
+    font-size: clamp(2rem, 8vw, 3rem);
   }
 }

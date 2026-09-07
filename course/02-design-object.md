@@ -8,12 +8,12 @@
 - **Tie:** leather (or similar) fastening
 - **Filter:** proprietary thick **bonded** paper cone that follows the upper funnel
 
-![Chemex coffee maker, designed 1941 (Brooklyn Museum)](/art-of-chemex/assets/images/BrooklynMuseum_Chemex_1997.117_CC-BY.jpg)
+<img class="smooth" src="/art-of-chemex/assets/images/BrooklynMuseum_Chemex_1997.117_CC-BY.jpg" alt="Chemex coffee maker, designed 1941 (Brooklyn Museum)" />
 
 *Brooklyn Museum object photo — open license. Credit & rights: [SOURCES](/art-of-chemex/assets/SOURCES.md).*
 
 
-![Chemex still life — Unsplash CC0](/art-of-chemex/assets/images/Chemex_Unsplash_ZacharyNewton_CC0.jpg)
+<img class="smooth" src="/art-of-chemex/assets/images/Chemex_Unsplash_ZacharyNewton_CC0.jpg" alt="Chemex still life — Unsplash CC0" />
 
 *Lifestyle / brew-lab atmosphere — Zachary Newton / Unsplash (CC0 1.0).*
 

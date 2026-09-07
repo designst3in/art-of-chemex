@@ -2,7 +2,7 @@
 
 A workshop exploring the **Chemex** coffee maker as design object, invention, and brew method.
 
-![Chemex coffee maker, designed 1941 — Brooklyn Museum](/art-of-chemex/assets/images/BrooklynMuseum_Chemex_1997.117_CC-BY.jpg)
+<img class="smooth" src="/art-of-chemex/assets/images/BrooklynMuseum_Chemex_1997.117_CC-BY.jpg" alt="Chemex coffee maker, designed 1941 — Brooklyn Museum" />
 
 *Chemex coffee maker, designed 1941. Photograph: Brooklyn Museum (CC BY 3.0). Object gift of Dr. Barry R. Harwood, 1997.117. Credits: [SOURCES](/art-of-chemex/assets/SOURCES.md).*
 

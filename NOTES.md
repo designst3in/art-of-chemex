@@ -29,6 +29,7 @@ Track fact-checks, missing sources, and open questions for the *Art of Chemex* w
 | N15 | global | Never cite US2399935 as Chemex | DONE |
 | N16 | assets | IMAGES-AND-ESSAYS catalog checked in | DONE |
 | N17 | 04-patents | Advanced track: US2411340 / US2681154 | REVIEW (optional depth) |
+| N18 | theme | ADD-dub tokens: cream `#F7F1E5`, turquoise `#1AA7A0`, coffee `#5C3A21`, ink `#2A1F18`; Flex h1 / Silkscreen HUD / Inter body | REVIEW |
 
 ## Conventions
 
@@ -38,3 +39,7 @@ Track fact-checks, missing sources, and open questions for the *Art of Chemex* w
 - Keep `> **REVIEW:**` callouts in course pages until items close here.
 
 > **REVIEW:** Keep this log updated as modules move from scaffold to teach-ready.
+
+## Theme tokens (ADD-dub)
+
+> **REVIEW:** Site theme restyled to ADD-dub art direction. Tokens — cream `#F7F1E5`, turquoise `#1AA7A0` (links + Flex titles), coffee `#5C3A21` (Silkscreen h2/h3/sidebar HUD), ink `#2A1F18` (Inter body). Google Sans Flex local woff2 under `assets/fonts/`; Silkscreen + Inter via Google Fonts. Patent imgs pixelated by CSS; Brooklyn/Unsplash photos marked `class="smooth"`. Confirm visual QA on Pages after deploy.
