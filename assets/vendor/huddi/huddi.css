@@ -1,0 +1,225 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   HUDDI v0.1 — OSD surface only
+   Integer-scaled Silkscreen. No other faces. No antialias. No opacity state.
+   Drop-in: link this + import huddi.js
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.huddi,
+.huddi * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: none !important;
+  -moz-osx-font-smoothing: unset;
+  font-smooth: never;
+  text-rendering: geometricPrecision;
+  font-variant-ligatures: none;
+  letter-spacing: 0 !important;
+}
+
+.huddi {
+  /* --s integer 1|2|3 · cell = 1ch at font-size 8px×--s */
+  --s: 2;
+  --huddi-ink: #e8e8e8;
+  --huddi-cut: #0d0d0d;
+  --huddi-solid: #e8e8e8;
+
+  font-family: 'Silkscreen', monospace;
+  font-size: calc(8px * var(--s));
+  line-height: 1;
+  color: var(--huddi-solid);
+  white-space: pre;
+  user-select: none;
+  -webkit-user-select: none;
+  pointer-events: none;
+}
+
+.huddi.blend-difference { mix-blend-mode: difference; color: #fff; }
+.huddi.blend-solid { mix-blend-mode: normal; color: var(--huddi-solid); }
+
+.huddi .hit { pointer-events: auto; cursor: pointer; }
+.huddi button.hit {
+  display: block; width: 100%;
+  background: none !important; border: none !important; outline: none !important;
+  padding: 0; margin: 0;
+  font: inherit; color: inherit; text-align: inherit; cursor: pointer;
+  appearance: none; -webkit-appearance: none;
+}
+
+.huddi .osdsol-bar {
+  cursor: ew-resize;
+  touch-action: pan-y;
+  /* expanded hit: label + bar + gap (ADD measured 48px @ --s:2) */
+  padding: 1em 0;
+  margin: -1em 0;
+  position: relative;
+}
+.huddi .osdsol-xy { cursor: crosshair; touch-action: none; }
+.huddi .osdsol-hdr { cursor: pointer; }
+
+/* Grid cells — 1ch mono paper (Phase 2 HUDDI face will true-mono 8px) */
+.huddi .grid1 .gc {
+  display: inline-block;
+  width: 1ch;
+  text-align: center;
+  line-height: 1;
+}
+.huddi .grid1 .gc.cut {
+  background: var(--huddi-ink);
+  color: var(--huddi-cut);
+}
+.huddi.blend-difference .grid1 .gc.cut {
+  background: #fff;
+  color: #000;
+}
+.huddi .grid1 .gline { display: block; line-height: 1; }
+
+.huddi .osd-gap { height: 1em; pointer-events: none; }
+.huddi .row { white-space: pre; }
+/* disabled = removed from interaction; never half-lit */
+.huddi .row.disabled { pointer-events: none; display: none; }
+
+.huddi .panel {
+  pointer-events: auto;
+  text-align: left;
+  max-height: calc(100dvh - 8px * var(--s) - 2.5em);
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  touch-action: pan-y;
+}
+.huddi .panel::-webkit-scrollbar { display: none; }
+
+.huddi .anchor-tr {
+  position: absolute;
+  top: calc(8px * var(--s));
+  right: calc(8px * var(--s));
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.huddi .anchor-bl {
+  position: absolute;
+  bottom: calc(8px * var(--s) + 1ch);
+  left: calc(8px * var(--s) + 1ch);
+}
+.huddi .anchor-br {
+  position: absolute;
+  bottom: calc(8px * var(--s));
+  right: calc(8px * var(--s));
+  text-align: right;
+  pointer-events: none;
+}
+
+.huddi .credits {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  pointer-events: none;
+}
+.huddi .credit-line { display: block; min-height: 1em; line-height: 1; }
+
+.huddi .midi-hud {
+  opacity: 0;
+  transition: opacity 0.25s steps(2, end);
+  pointer-events: none;
+}
+.huddi .midi-hud.visible { opacity: 1; }
+.huddi .learn-chip {
+  opacity: 0;
+  transition: opacity 0.2s steps(2, end);
+  pointer-events: none;
+}
+.huddi .learn-chip.visible { opacity: 1; }
+
+/* ── Pad strip layout (joy · XY · VBar) ─────────────────────────────── */
+.huddi .pad-col {
+  display: inline-block;
+  vertical-align: bottom;
+  line-height: 1;
+  white-space: pre;
+}
+.huddi .pad-col + .pad-col {
+  margin-left: 1ch;
+}
+.huddi .pad-readout {
+  line-height: 1;
+  white-space: pre;
+  pointer-events: none;
+  min-height: 2em;
+}
+.huddi .xy-pad,
+.huddi .joy-pad,
+.huddi .vbar-pad {
+  line-height: 1;
+  white-space: pre;
+}
+
+/* ── Stage layers (ports · shape handles) ──────────────────────────── */
+.huddi-stage,
+.huddi .huddi-stage {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 56;
+  touch-action: none;
+  font-family: 'Silkscreen', monospace;
+  font-size: calc(8px * var(--s, 2));
+  line-height: 1;
+  color: #fff;
+  -webkit-font-smoothing: none !important;
+  text-rendering: geometricPrecision;
+  font-variant-ligatures: none;
+  letter-spacing: 0 !important;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.huddi-stage-shape { z-index: 55; }
+
+.huddi-stage .stage-knob,
+.huddi-stage .port-knob,
+.huddi-stage .shape-knob {
+  position: absolute;
+  left: 0;
+  top: 0;
+  line-height: 1;
+  white-space: pre;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+/* Ports are hittable; shape knobs are paint-only (hit-test is stage-level) */
+.huddi-stage .port-knob {
+  pointer-events: auto;
+  cursor: grab;
+  touch-action: none;
+}
+.huddi-stage .port-knob.dragging { cursor: grabbing; }
+.huddi-stage .shape-knob { pointer-events: none; text-align: center; }
+
+.huddi-stage .stage-knob-grid,
+.huddi-stage .port-knob-grid,
+.huddi-stage .shape-knob-grid,
+.huddi-stage .stage-readout,
+.huddi-stage .shape-readout {
+  line-height: 1;
+  white-space: pre;
+  pointer-events: none;
+  cursor: inherit;
+}
+
+.huddi-stage .grid1 .gline {
+  display: block !important;
+  line-height: 1;
+  white-space: pre;
+}
+.huddi-stage .grid1 .gc {
+  display: inline-block;
+  width: 1ch;
+  text-align: center;
+  line-height: 1;
+}
+.huddi-stage .grid1 .gc.cut {
+  background: #fff;
+  color: #000;
+}

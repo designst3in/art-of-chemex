@@ -73,6 +73,12 @@ CSS variables to tune:
 --color-cream --color-turquoise --color-coffee --color-ink
 ```
 
+### Headline interaction (Flex axes)
+
+Headlines animate via `font-variation-settings` (default tokens above; `transition: font-variation-settings 180ms ease`). Keep axes on CSS vars so future hover/scroll can retarget `wght` / `wdth` / `opsz` without swapping faces.
+
+**Docsify `vue.css` must not win on type:** it sets heading `font-weight` bold/600 and an `h1` `border-bottom` theme-color line. `theme.css` overrides with high-specificity `!important`, `font-synthesis: none`, keyword-range `font-weight` (100/200/300), and `border-bottom: none` so Safari never mixes synthetic bold with thin Flex glyphs. Do not reintroduce `font-weight` on `h*` from vue or other theme sheets.
+
 ## Image rendering rules
 
 | Class / path | Rendering | Use |
@@ -90,7 +96,16 @@ See **[ART-DIRECTION.md](/art-of-chemex/assets/reference/ART-DIRECTION.md)** for
 
 ## HUDDI note
 
-Animated Silkscreen OSD components live in sibling maker work (`viz-protos` / `huddi.css`: integer scale `8px×--s`, no antialias, no opacity state). This Docsify site uses the **same chrome rules** (Silkscreen 400, coffee, crisp) for sidebar/labels only — not a full HUDDI runtime embed yet.
+Animated Silkscreen OSD components live in the maker HUDDI kit — **reuse `createHuddi` + shimmer; do not invent**.
+
+| Path | Role |
+|------|------|
+| `designst3in/viz` → `vendor/huddi/` | Canonical kit (`huddi.js`, `huddi.css`, `shimmer.js`, `stage.js`, `fonts/`) |
+| `/workspace/viz-protos/shared/huddi/` | Local checkout used by protos |
+| `assets/vendor/huddi/` | Snapshot in this repo for future chrome (not loaded by Docsify yet) |
+| [synthstation.pages.dev](https://synthstation.pages.dev) · [add-dub.pages.dev](https://add-dub.pages.dev) | Live demos |
+
+Rules: integer scale `8px×--s`, no antialias, **Silkscreen weight 400 only** (never 700 / never bold). This Docsify site mirrors those chrome rules in `theme.css` for sidebar/labels — not a full HUDDI runtime embed yet.
 
 ## Related
 
