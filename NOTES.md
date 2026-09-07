@@ -22,8 +22,8 @@ Track fact-checks, missing sources, and open questions for the *Art of Chemex* w
 | N8 | 04 / 06 | Cooper Hewitt “patented 1944” → USD137943 | DONE (clarified) |
 | N9 | 05-inventor | Caplan “logic and madness” — original text + cite | REVIEW |
 | N10 | 05-inventor | Patent count ~300 (never 3000) | DONE |
-| N11 | 07-brew | House recipe dose / yield / pour schedule | REVIEW (instructor TBD) |
-| N12 | 08-run-of-show | Venue, date, headcount timing | REVIEW |
+| N11 | 07-brew | House recipes: hot 40g→640ml (1:16); ice 24g/200g/200g | DONE (approved 2026-09-07) |
+| N12 | 08-run-of-show | 90-min schedule approved; venue/headcount still TBD | DONE schedule / REVIEW venue |
 | N13 | assets | Brooklyn + Unsplash + patents + MoMA bulletin | DONE |
 | N14 | research-brief | Timeline + links + design patent | DONE |
 | N15 | global | Never cite US2399935 as Chemex | DONE |
@@ -31,6 +31,11 @@ Track fact-checks, missing sources, and open questions for the *Art of Chemex* w
 | N17 | 04-patents | Advanced track: US2411340 / US2681154 | REVIEW (optional depth) |
 | N18 | theme | ADD-dub tokens: cream `#F7F1E5`, turquoise `#1AA7A0`, coffee `#5C3A21`, ink `#2A1F18`; Flex h1/h2 · Silkscreen h3+ HUD · Inter body | REVIEW |
 | N19 | theme | **h3 = Silkscreen 400** (HUD), not Flex — axes `--wght-h3` etc. removed | REVIEW |
+
+
+## Change log
+
+- **2026-09-07** — Workshop schedule **approved** as canonical (not draft). Updated `course/08-workshop-run-of-show.md` (90-min table, kit checklist, timing notes) and `course/07-brew-method.md` (hot 40g→640ml 1:16; ice 24g/200g ice/200g water). Stumptown ice YouTube URL still REVIEW TODO. README workshop cross-link added.
 
 ## Conventions
 

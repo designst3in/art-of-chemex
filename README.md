@@ -22,11 +22,16 @@ This Docsify site is the course home for Abhishek’s *Art of Chemex* workshop: 
 | 04 · Patent Drawings | US2241368 Figs 1–4 + related filings |
 | 05 · Inventor | Peter Schlumbohm — cited biography |
 | 06 · Design Write-ups | Curatorial reading & label writing |
-| 07 · Brew Method | Hands-on pour-over (house recipe TBD) |
-| 08 · Run of Show | Workshop timing & facilitation |
+| 07 · Brew Method | Hands-on pour-over — hot 40g→640ml (1:16); ice 24g/200g/200g |
+| 08 · Run of Show | Canonical 90-min schedule (approved 2026-09-07) |
 | 09 · Art reference | HQ product refs + art direction |
 | Design system | Type roles, tokens, specimens |
 | Research Brief | Timeline table + source links |
+
+
+## Workshop schedule
+
+Canonical **90-minute** run of show (60 workshop + ≥30 QA/open brew): kit, timing table, and demo notes live in [08 · Workshop Run of Show](course/08-workshop-run-of-show.md). House recipes (hot 3-pour + Stumptown-style ice) are on [07 · Brew Method](course/07-brew-method.md).
 
 ## How to use this site
 

@@ -2,57 +2,85 @@
 
 ## Purpose
 
-Facilitator timing sheet for a single *Art of Chemex* session: **design + science, then brew**. Adjust for group size and venue.
+**Canonical** facilitator timing sheet for a single *Art of Chemex* session (approved **2026-09-07**).
 
-## Suggested arc (~105 min)
+**90-minute block** = **60 min workshop** + **≥30 min QA / open brew**.
 
-| Block | Minutes | Activity | Module |
-|-------|---------|----------|--------|
-| Arrive & setup | 10 | Kit check, water heat | — |
-| Welcome | 5 | Goals, safety, site map | README |
-| History spark | 10 | 1941 patent, MoMA wartime, impact | 01 |
-| Inventor | 5 | Schlumbohm sketch + REVIEW conflicts | 05 |
-| Object looking | 15 | Materials, MoMA 51.1943, essays | 02, 06 |
-| How it works | 10 | Filter, groove/vent, flow demo | 03 |
-| Patent glance | 10 | US2241368 Figs 1–4 | 04 |
-| Brew lab | 25 | Hands-on Chemex | 07 |
-| Share & close | 10 | 50-word labels / taste notes | 06 |
-| Buffer | 10 | Q&A, cleanup | — |
-| **Total** | **~105** | | |
+Design history, heritage, and object are **one** intro presentation in the live run — not separate chapters.
 
-### Shorter 60-min cut
+## Kit (required / bring)
 
-Welcome (3) → History+Inventor (10) → Object (10) → Patent Fig 1 (5) → Brew (25) → Close (7).
+| Item | Notes |
+|------|--------|
+| Chemex + Chemex bonded filters | One station kit per participant / pair as planned |
+| Grinder | Burr preferred; tested before doors |
+| Scale | Gram precision |
+| Gooseneck kettle | Hot-liquid safety brief at start |
+| Alt filters | **Post-shop only** — not for timed demos |
 
-### Longer 120-min cut
+## 90-min schedule
 
-Add break (10) after patent; extend brew lab + cupping (15).
+| Min | Block | What |
+|-----|-------|------|
+| **0–20** | **1. Intro** | Design history + heritage + object (**one** presentation) |
+| **20–32** | **2. Unbox** | Participants unbox/appreciate together while instructor covers industrial design, materials, filters |
+| **32–40** | **3. Method** | Short brew-method presentation + external links |
+| **40–60** | **4. Demos** | **Hot:** 40 g grounds → 640 ml, usual 3-pour · **Cold:** Stumptown-style on ice — 24 g / 200 g ice / 200 g water + YouTube link · **Care:** maintenance & cleaning |
+| **60–90** | **5. Buffer** | QA, tasting, open brew / redo |
 
-> **REVIEW:** Recast timing for your actual slot and headcount. Insert venue, date, and contact once scheduled.
+Recipes are locked on [07 · Brew Method](07-brew-method.md).
+
+## Timing notes
+
+- **Unbox is tight (12 min)** — pre-stage Chemex if possible so participants open and look, not hunt for packing.
+- **Cold / ice demo** = **assemble + explain**, not a full steep in-session. Show ice in carafe, dose, and pour path; point to the external link for the full method.
+- Combine design history / heritage / object into **ONE 20-min intro** (Block 1). Do not split into separate live chapters.
+
+## Demo detail (Block 4 · 40–60)
+
+### Hot — usual 3-pour
+
+- **40 g** grounds → **640 ml** water (**1:16**)
+- Teach bloom + two follow-on pours (house “usual 3-pour”)
+- See [07 · Brew Method](07-brew-method.md)
+
+### Cold — Stumptown-style on ice
+
+- **24 g** coffee / **200 g** ice / **200 g** water
+- Assemble + explain only (no full in-session steep)
+- External video:
+
+> **REVIEW:** Confirm Stumptown Chemex ice / cold brew YouTube URL before teaching day. Search hint: *"Stumptown Chemex ice / cold brew YouTube"*. Placeholder until locked: `TODO — Stumptown Chemex ice / cold brew YouTube`
+
+### Care
+
+- Maintenance & cleaning (rinse, wood collar care, filter disposal, hard-water notes as needed)
 
 ## Roles
 
-- **Lead facilitator** — narrative + timing (speak as workshop host)
-- **Brew assistant** — water, grind, safety
+- **Lead facilitator** — narrative + timing (Blocks 1–3 + demos)
+- **Brew assistant** — water, grind, ice staging, safety
 - **Optional** — note-taker for live captures into [NOTES.md](../NOTES.md)
 
 ## Pre-flight checklist
 
-- [ ] Chemex units + bonded filters for each station
-- [ ] Scales / grinders / kettles tested
-- [ ] House recipe locked on Module 07
-- [ ] Patent PDF projected: `/art-of-chemex/assets/patents/US2241368.pdf` (or Google Patents)
-- [ ] Open object image ready: `/art-of-chemex/assets/images/BrooklynMuseum_Chemex_1997.117_CC-BY.jpg`
+- [ ] Chemex units + **bonded** filters staged (Unbox ready)
+- [ ] Scales / grinders / gooseneck kettles tested
+- [ ] House recipes locked on Module 07 (hot 40→640; ice 24/200/200)
+- [ ] Ice ready for cold demo assembly
+- [ ] Alt filters set aside for **post-shop only**
+- [ ] Patent / object images ready if used in Intro
 - [ ] Docsify site or PDF backup offline
 - [ ] Allergies / hot-liquid safety brief
-- [ ] Rights-cleared slides only (no uncleared MoMA/LIFE grabs)
+- [ ] Rights-cleared slides only
+- [ ] Stumptown ice YouTube URL confirmed (or REVIEW TODO accepted)
 
 ## Talking points not to invent
 
 - Patents: utility **US 2,241,368** (1941) + design **USD 137,943** (1944) — never US2399935
 - MoMA accession: **51.1943**
 - Patent count: ~**300**, not 3000
-- Flag immigration 1935/1936 and IIT 1956/1958 as open REVIEW items
+- Flag immigration 1935/1936 and IIT 1956/1958 as open REVIEW items elsewhere
 
 ## Post-workshop
 
