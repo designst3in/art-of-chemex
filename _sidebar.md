@@ -1,6 +1,6 @@
 * [Home](/README.md)
 
-* [Design system](/course/design-system.md)
+* [Design attributes](/course/design-attributes.md)
 
 * **Course**
   * [01 · History & Impact](/course/01-history-impact.md)
@@ -14,9 +14,14 @@
   * [09 · Art reference](/course/09-art-reference.md)
   * [Research Brief](/course/research-brief.md)
 
+* [Brew method](/course/07-brew-method.md)
+* [Workshop run of show](/course/08-workshop-run-of-show.md)
+
 * **Assets**
   * [Image & Patent Sources](/assets/SOURCES.md)
   * [Images & Essays Catalog](/assets/IMAGES-AND-ESSAYS.md)
   * [Art direction](/assets/reference/ART-DIRECTION.md)
 
-* [Review Log](/NOTES.md)
+* [Type tokens](/course/design-system.md)
+
+* [Notes](/NOTES.md)

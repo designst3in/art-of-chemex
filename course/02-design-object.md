@@ -1,5 +1,7 @@
 # 02 · Design Object
 
+Workshop anatomy diagram (eight attributes + annotated still): **[Design attributes](design-attributes.md)**.
+
 ## Form language
 
 - **Vessel:** one-piece **borosilicate** hourglass — upper conical funnel (~60°) over an Erlenmeyer-like lower flask

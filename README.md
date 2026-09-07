@@ -10,7 +10,7 @@ A workshop exploring the **Chemex** coffee maker as design object, invention, an
 
 The Chemex is an hourglass-shaped pour-over introduced in **1941** by German-American chemist **Dr. Peter Schlumbohm** (1896–1962). Core U.S. utility patent: **[US 2,241,368](https://patents.google.com/patent/US2241368A/en)** (“Filtering device”), filed 1939-04-13, granted **1941-05-06**. Design patent **[USD 137,943](https://patents.google.com/patent/USD137943S/en)** (combined flask and handle) issued **1944-05-23**. Borosilicate vessel, wood collar, and leather tie became mid-century icons — including MoMA accession **[51.1943](https://www.moma.org/collection/works/1847)** and the cover of MoMA’s *Useful Objects in Wartime* bulletin.
 
-This Docsify site is the course home for Abhishek’s *Art of Chemex* workshop: **design + science, then brew**.
+This Docsify site is the course home for Abhishek’s *Art of Chemex* workshop: **design + science, then brew**. Start with [Design attributes](course/design-attributes.md) for the object anatomy.
 
 ## What you will cover
 
@@ -25,7 +25,7 @@ This Docsify site is the course home for Abhishek’s *Art of Chemex* workshop: 
 | 07 · Brew Method | Hands-on pour-over — hot 40g→640ml (1:16); ice 24g/200g/200g |
 | 08 · Run of Show | Canonical 90-min schedule (approved 2026-09-07) |
 | 09 · Art reference | HQ product refs + art direction |
-| Design system | Type roles, tokens, specimens |
+| Design attributes | Anatomy diagram + eight teaching attributes |
 | Research Brief | Timeline table + source links |
 
 

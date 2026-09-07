@@ -18,7 +18,7 @@ Working notes for geometry, materials, camera, and raster treatment. Product sti
 | Tie | Leather | Soft fastener; period craft |
 | Filter | Bonded paper | Proprietary thickness / shape |
 
-Palette on site: cream ground, turquoise display, coffee HUD, ink body — see [design system](/art-of-chemex/course/design-system.md).
+Palette on site: cream ground, turquoise display, coffee HUD, ink body — see [Type tokens](/art-of-chemex/course/design-system.md).
 
 ## Product reference stills (HQ)
 
@@ -56,6 +56,7 @@ Suggested placeholders to lock later:
 
 ## Related
 
-- [Design system](/art-of-chemex/course/design-system.md)
+- [Design attributes](/art-of-chemex/course/design-attributes.md)
+- [Type tokens](/art-of-chemex/course/design-system.md)
 - [09 · Art reference](/art-of-chemex/course/09-art-reference.md)
 - Open course photos: `../images/` (Brooklyn CC BY, Unsplash CC0)

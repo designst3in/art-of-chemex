@@ -31,10 +31,13 @@ Track fact-checks, missing sources, and open questions for the *Art of Chemex* w
 | N17 | 04-patents | Advanced track: US2411340 / US2681154 | REVIEW (optional depth) |
 | N18 | theme | ADD-dub tokens: cream `#F7F1E5`, turquoise `#1AA7A0`, coffee `#5C3A21`, ink `#2A1F18`; Flex h1/h2 · Silkscreen h3+ HUD · Inter body | REVIEW |
 | N19 | theme | **h3 = Silkscreen 400** (HUD), not Flex — axes `--wght-h3` etc. removed | REVIEW |
+| N20 | design-attributes | Brand annotated anatomy JPG rights before projection | REVIEW |
+| N21 | public site | HUDDI / maker chrome unlinked from public nav | DONE |
 
 
 ## Change log
 
+- **2026-09-07** — Public site: hide HUDDI; add `course/design-attributes.md` anatomy consolidation; sidebar → Design attributes near top; design-system reframed as Type tokens (no HUDDI catalog).
 - **2026-09-07** — Workshop schedule **approved** as canonical (not draft). Updated `course/08-workshop-run-of-show.md` (90-min table, kit checklist, timing notes) and `course/07-brew-method.md` (hot 40g→640ml 1:16; ice 24g/200g ice/200g water). Stumptown ice YouTube URL still REVIEW TODO. README workshop cross-link added.
 
 ## Conventions
@@ -51,3 +54,8 @@ Track fact-checks, missing sources, and open questions for the *Art of Chemex* w
 > **REVIEW:** Site theme restyled to ADD-dub art direction. Tokens — cream `#F7F1E5`, turquoise `#1AA7A0` (links + Flex h1), coffee `#5C3A21` (Flex h2 + Silkscreen h3+/sidebar HUD), ink `#2A1F18` (Inter body). Google Sans Flex local woff2 under `assets/fonts/`; Silkscreen + Inter via Google Fonts. Patent imgs pixelated by CSS; Brooklyn/Unsplash photos marked `class="smooth"`. Confirm visual QA on Pages after deploy.
 
 > **REVIEW:** **h3 = Silkscreen weight 400** (HUD chrome, 16px, no antialias, coffee) — not Google Sans Flex. Flex axes apply to h1/h2 only. Cache-bust `theme.css?v=5`.
+
+
+## Internal tooling
+
+**HUDDI is internal; not for workshop site.** Do not link `assets/vendor/huddi/`, huddi.pages.dev, createHuddi, or shimmer from public sidebar / README / course pages. Maker chrome kit stays off the Docsify surface.
