@@ -48,6 +48,7 @@ Track fact-checks, missing sources, and open questions for the *Art of Chemex* w
 
 ## Change log
 
+- **2026-09-07** — OG direction: full turquoise field `#4bb4bb` + transparent Chemex (`assets/images/chemex-transparent.png`, rembg from studio-white-front-alt); cream title `#F7F1E5`. Homepage not rewritten; OG lab defaults updated (wdth 140). theme `#4bb4bb` already on main.
 - **2026-09-07** — Turquoise token updated `#1AA7A0` → `#4bb4bb` (hover `#158F89` → `#3a9ea5`). Updated `theme.css` (`--color-turquoise`, `--turquoise-hover`, `--theme-color`), `docsify-config.js` `themeColor`, `course/design-system.md`, cache-bust `theme.css?v=6` + `docsify-config.js?v=6`.
 - **2026-09-07** — Added Working protocol (repo as source of truth; dual editors; Coffee Scientist gates public updates; sync=push; decisions/REVIEW in NOTES; homepage+OG still gated).
 - **2026-09-07** — Public site: hide HUDDI; add `course/design-attributes.md` anatomy consolidation; sidebar → Design attributes near top; design-system reframed as Type tokens (no HUDDI catalog).
