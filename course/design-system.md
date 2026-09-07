@@ -50,9 +50,13 @@ The Chemex is an hourglass pour-over: laboratory typology brought into the kitch
 | `--color-coffee` | `#5C3A21` | h2/h3, HUD, borders |
 | `--color-ink` | `#2A1F18` | Body text |
 
-## Flex axes (Google Sans Flex / ADD-dub)
+## Flex axes (Google Sans Flex — full Latin variable)
 
-Available variation axes on the checked-in `GoogleSansFlex.woff2`:
+> **NOTE — never use the ADD-dub glyph subset for body/headlines.**  
+> `gsflex-aldyub.woff2` (~39KB) only covers letters in “ALL DAY DUB” (and similar). Missing glyphs fall back to Docsify/system bold and break thin Flex headlines (e.g. thin “A”, bold dark rest of “Art of Chemex”).  
+> **Always ship the full Latin variable Flex** (`google-sans-flex-latin-full-normal.woff2` or equivalent, well above 100KB — typically ~200KB–2MB, with `wght` + `wdth` + `opsz` at minimum). Filename in-repo: `assets/fonts/GoogleSansFlex.woff2`.
+
+Available variation axes on the checked-in full `GoogleSansFlex.woff2`:
 
 | Axis | Tag | Headline defaults |
 |------|-----|-------------------|
