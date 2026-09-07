@@ -40,7 +40,7 @@ Track fact-checks, missing sources, and open questions for the *Art of Chemex* w
 | N15 | global | Never cite US2399935 as Chemex | DONE |
 | N16 | assets | IMAGES-AND-ESSAYS catalog checked in | DONE |
 | N17 | 04-patents | Advanced track: US2411340 / US2681154 | REVIEW (optional depth) |
-| N18 | theme | ADD-dub tokens: cream `#F7F1E5`, turquoise `#1AA7A0`, coffee `#5C3A21`, ink `#2A1F18`; Flex h1/h2 · Silkscreen h3+ HUD · Inter body | REVIEW |
+| N18 | theme | ADD-dub tokens: cream `#F7F1E5`, turquoise `#4bb4bb`, coffee `#5C3A21`, ink `#2A1F18`; Flex h1/h2 · Silkscreen h3+ HUD · Inter body | REVIEW |
 | N19 | theme | **h3 = Silkscreen 400** (HUD), not Flex — axes `--wght-h3` etc. removed | REVIEW |
 | N20 | design-attributes | Brand annotated anatomy JPG rights before projection | REVIEW |
 | N21 | public site | HUDDI / maker chrome unlinked from public nav | DONE |
@@ -48,6 +48,7 @@ Track fact-checks, missing sources, and open questions for the *Art of Chemex* w
 
 ## Change log
 
+- **2026-09-07** — Turquoise token updated `#1AA7A0` → `#4bb4bb` (hover `#158F89` → `#3a9ea5`). Updated `theme.css` (`--color-turquoise`, `--turquoise-hover`, `--theme-color`), `docsify-config.js` `themeColor`, `course/design-system.md`, cache-bust `theme.css?v=6` + `docsify-config.js?v=6`.
 - **2026-09-07** — Added Working protocol (repo as source of truth; dual editors; Coffee Scientist gates public updates; sync=push; decisions/REVIEW in NOTES; homepage+OG still gated).
 - **2026-09-07** — Public site: hide HUDDI; add `course/design-attributes.md` anatomy consolidation; sidebar → Design attributes near top; design-system reframed as Type tokens (no HUDDI catalog).
 - **2026-09-07** — Workshop schedule **approved** as canonical (not draft). Updated `course/08-workshop-run-of-show.md` (90-min table, kit checklist, timing notes) and `course/07-brew-method.md` (hot 40g→640ml 1:16; ice 24g/200g ice/200g water). Stumptown ice YouTube URL still REVIEW TODO. README workshop cross-link added.
@@ -63,9 +64,9 @@ Track fact-checks, missing sources, and open questions for the *Art of Chemex* w
 
 ## Theme tokens (ADD-dub)
 
-> **REVIEW:** Site theme restyled to ADD-dub art direction. Tokens — cream `#F7F1E5`, turquoise `#1AA7A0` (links + Flex h1), coffee `#5C3A21` (Flex h2 + Silkscreen h3+/sidebar HUD), ink `#2A1F18` (Inter body). Google Sans Flex local woff2 under `assets/fonts/`; Silkscreen + Inter via Google Fonts. Patent imgs pixelated by CSS; Brooklyn/Unsplash photos marked `class="smooth"`. Confirm visual QA on Pages after deploy.
+> **REVIEW:** Site theme restyled to ADD-dub art direction. Tokens — cream `#F7F1E5`, turquoise `#4bb4bb` (links + Flex h1), coffee `#5C3A21` (Flex h2 + Silkscreen h3+/sidebar HUD), ink `#2A1F18` (Inter body). Google Sans Flex local woff2 under `assets/fonts/`; Silkscreen + Inter via Google Fonts. Patent imgs pixelated by CSS; Brooklyn/Unsplash photos marked `class="smooth"`. Confirm visual QA on Pages after deploy.
 
-> **REVIEW:** **h3 = Silkscreen weight 400** (HUD chrome, 16px, no antialias, coffee) — not Google Sans Flex. Flex axes apply to h1/h2 only. Cache-bust `theme.css?v=5`.
+> **REVIEW:** **h3 = Silkscreen weight 400** (HUD chrome, 16px, no antialias, coffee) — not Google Sans Flex. Flex axes apply to h1/h2 only. Cache-bust `theme.css?v=6`.
 
 
 ## Internal tooling

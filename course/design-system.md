@@ -46,7 +46,7 @@ The Chemex is an hourglass pour-over: laboratory typology brought into the kitch
 | Token | Value | Use |
 |-------|-------|-----|
 | `--color-cream` | `#F7F1E5` | Page / sidebar ground |
-| `--color-turquoise` | `#1AA7A0` | h1, links, active nav, theme |
+| `--color-turquoise` | `#4bb4bb` | h1, links, active nav, theme |
 | `--color-coffee` | `#5C3A21` | h2, h3+ labels, borders |
 | `--color-ink` | `#2A1F18` | Body text |
 

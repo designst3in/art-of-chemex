@@ -10,7 +10,7 @@ window.$docsify = {
   alias: {
     '/.*/_sidebar.md': '/_sidebar.md'
   },
-  themeColor: '#1AA7A0',
+  themeColor: '#4bb4bb',
   search: {
     placeholder: 'Search the workshop…',
     noData: 'No results',

@@ -1,5 +1,5 @@
 /* Art of Chemex — design system tokens
-   cream #F7F1E5 · turquoise #1AA7A0 · coffee #5C3A21 · ink #2A1F18 */
+   cream #F7F1E5 · turquoise #4bb4bb · coffee #5C3A21 · ink #2A1F18 */
 
 @font-face {
   font-family: 'Google Sans Flex';
@@ -26,14 +26,14 @@
 
   /* Palette */
   --color-cream: #F7F1E5;
-  --color-turquoise: #1AA7A0;
+  --color-turquoise: #4bb4bb;
   --color-coffee: #5C3A21;
   --color-ink: #2A1F18;
 
   /* Legacy aliases */
   --cream: var(--color-cream);
   --turquoise: var(--color-turquoise);
-  --turquoise-hover: #158F89;
+  --turquoise-hover: #3a9ea5;
   --coffee: var(--color-coffee);
   --ink: var(--color-ink);
 
