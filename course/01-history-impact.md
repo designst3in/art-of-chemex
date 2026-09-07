@@ -20,6 +20,17 @@ Lab glassware thinking → wartime “good design” → mid-century icon → sp
 6. **Later utility patents.** Filter-paper geometry [US 2,693,883](https://patents.google.com/patent/US2693883A/en) (issued 1954); [US 2,897,970](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/2897970) (1959); also US2411340 decanter flask (1946).
 7. **Afterlife.** Schlumbohm dies **1962**. From the 2000s onward, specialty coffee rediscovers the thick bonded filter and high-clarity cup; still produced in Massachusetts.
 
+
+## Visual context
+
+![Chemex coffee maker, designed 1941 — Brooklyn Museum](/art-of-chemex/assets/images/BrooklynMuseum_Chemex_1997.117_CC-BY.jpg)
+
+*Brooklyn Museum object photo (CC BY 3.0) — the form MoMA put on the wartime “good design” map. Credits: [SOURCES](/art-of-chemex/assets/SOURCES.md).*
+
+![Chemex still life (Unsplash / CC0)](/art-of-chemex/assets/images/Chemex_Unsplash_ZacharyNewton_CC0.jpg)
+
+*Atmosphere shot — Zachary Newton / Unsplash (CC0 1.0). Useful for wartime-to-kitchen teaching slides.*
+
 ## Milestones (cite these)
 
 | Year | Event | Confidence |
@@ -44,8 +55,8 @@ Full timeline + links: [Research brief](research-brief.md).
 
 ## Assets
 
-- Open object photo (Brooklyn / Commons): [File:Peter Schlumbohm. Coffee Maker, Designed 1941.jpg](https://commons.wikimedia.org/wiki/File:Peter_Schlumbohm._Coffee_Maker,_Designed_1941.jpg) — also `assets/images/BrooklynMuseum_Chemex_1997.117_CC-BY.jpg`
-- Period ad / LIFE feature — **needs clearance** (see [SOURCES](../assets/SOURCES.md))
+- Open object photo (Brooklyn / Commons): [File:Peter Schlumbohm. Coffee Maker, Designed 1941.jpg](https://commons.wikimedia.org/wiki/File:Peter_Schlumbohm._Coffee_Maker,_Designed_1941.jpg) — also `/art-of-chemex/assets/images/BrooklynMuseum_Chemex_1997.117_CC-BY.jpg`
+- Period ad / LIFE feature — **needs clearance** (see [SOURCES](/art-of-chemex/assets/SOURCES.md))
 
 > **REVIEW:** Immigration year **1935** (MoMA wall text) vs **1936** (Lemelson / Chemex About). Flag both in teaching; do not pick one without a primary archival cite.
 

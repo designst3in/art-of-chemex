@@ -1,6 +1,8 @@
 window.$docsify = {
   name: 'Art of Chemex',
   repo: 'designst3in/art-of-chemex',
+  basePath: '/art-of-chemex/',
+  relativePath: true,
   loadSidebar: true,
   subMaxLevel: 2,
   auto2top: true,

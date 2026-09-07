@@ -44,7 +44,22 @@ Lens for this workshop: how a **laboratory mindset** shaped a domestic object.
 - Where does “inventor myth” begin and documented history end?
 - Why does MoMA’s wartime framing matter for how we remember Schlumbohm?
 
-## Assets needed
+## Assets & portrait note
+
+> **No open-license portrait** of Peter Schlumbohm was located for this course (see [SOURCES](/art-of-chemex/assets/SOURCES.md) and [IMAGES-AND-ESSAYS](/art-of-chemex/assets/IMAGES-AND-ESSAYS.md)). LIFE magazine (~1949) and Hagley Marc Harrison scrapbook photos exist but are **rights-restricted** — link for study; clear reproduction rights before projecting.
+
+**Stand-in for slides:** the open-license object photo of his best-known invention.
+
+![Chemex coffee maker, designed 1941 — Brooklyn Museum (stand-in for inventor portrait)](/art-of-chemex/assets/images/BrooklynMuseum_Chemex_1997.117_CC-BY.jpg)
+
+*Brooklyn Museum Chemex object photo (CC BY 3.0) — used here as a visual stand-in while portrait rights remain uncleared.*
+
+**Rights-restricted portrait leads (study links only):**
+
+- LIFE / Time archive portraits cited via [Collectors Weekly — Mr. Chemex](https://www.collectorsweekly.com/articles/mr-chemex/) — license via Getty/Time; do not scrape
+- [Hagley — Marc Harrison papers](https://findingaids.hagley.org/repositories/3/resources/983) — contact Hagley for reproduction
+
+## Assets needed (still open)
 
 - Portrait (rights-cleared) — `TODO`
 - Caplan original excerpt (permission / fair-use citation) — `TODO`

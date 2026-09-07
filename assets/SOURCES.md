@@ -11,6 +11,10 @@ Full catalog (essays, list-only URLs, figure notes): **[IMAGES-AND-ESSAYS.md](IM
 | `images/BrooklynMuseum_Chemex_1997.117_CC-BY.jpg` | Chemex, designed 1941 (studio object photo) | Brooklyn Museum — [object](https://www.brooklynmuseum.org/objects/2397) · [Commons file](https://commons.wikimedia.org/wiki/File:Peter_Schlumbohm._Coffee_Maker,_Designed_1941.jpg) | **CC BY 3.0** (Brooklyn Museum photograph) | **Open — OK for course / Pages** |
 | `images/Chemex_Unsplash_ZacharyNewton_CC0.jpg` | Styled Chemex still life | Zachary Newton / Unsplash (also Commons CC0) | **CC0 1.0** | Atmosphere / brew-lab slides |
 | `historical/MoMA_Useful_Objects_in_Wartime_1942.pdf` | MoMA Bulletin Vol. X (Dec 1942–Jan 1943); Chemex on **cover**; checklist #56 @ $6.50 | [MoMA assets PDF](https://assets.moma.org/documents/moma_catalogue_2733_300164646.pdf) | MoMA exhibition bulletin — **link/study OK**; high-res cover art reuse may need clearance | Prefer citing + linking for public decks unless cleared |
+| `images/patents/US2241368-fig-page1.jpg` | USPTO drawing sheet 1 (Figs 1–3) | Rendered from `patents/US2241368.pdf` via pdftoppm | Public domain (U.S. patent) | Inline Docsify embed |
+| `images/patents/US2241368-fig-page2.jpg` | USPTO drawing sheet 2 (Fig 4) | Same | Public domain | Inline Docsify embed |
+| `images/patents/USD137943-fig-page1.jpg` | Design patent sheet 1 (Figs 1–4) | Rendered from `patents/USD137943_GooglePatents.pdf` | Public domain | Inline Docsify embed |
+| `images/patents/USD137943-fig-page2.jpg` | Design patent sheet 2 (Fig 5) | Same | Public domain | Inline Docsify embed |
 | `patents/US2241368.pdf` | Filtering device (USPTO) | USPTO · [Google](https://patents.google.com/patent/US2241368A/en) | U.S. patent publication (public) | Utility **1941-05-06** |
 | `patents/US2241368_USPTO.pdf` | Same (named mirror) | USPTO | Public | |
 | `patents/US2241368_GooglePatents.pdf` | Same (Google Patents render) | Google Patents | Public | |

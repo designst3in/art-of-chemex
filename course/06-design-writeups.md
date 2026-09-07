@@ -41,4 +41,4 @@ Collect 2–3 strong participant labels; revise live for tone (neutral, precise,
 
 ## Assets needed
 
-- Side-by-side product photos for comparison exercise — open Chemex images in `assets/images/`; add comparator dripper photo with rights note
+- Side-by-side product photos for comparison exercise — open Chemex images in `/art-of-chemex/assets/images/`; add comparator dripper photo with rights note

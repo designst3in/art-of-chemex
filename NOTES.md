@@ -34,7 +34,7 @@ Track fact-checks, missing sources, and open questions for the *Art of Chemex* w
 
 - Do **not** invent patent numbers or URLs.
 - Prefer primary sources: USPTO, MoMA collection records, Chemex company history, museum catalogs.
-- When an image is added under `assets/`, log credit + license in `assets/SOURCES.md` the same day.
+- When an image is added under `/art-of-chemex/assets/`, log credit + license in `/art-of-chemex/assets/SOURCES.md` the same day.
 - Keep `> **REVIEW:**` callouts in course pages until items close here.
 
 > **REVIEW:** Keep this log updated as modules move from scaffold to teach-ready.

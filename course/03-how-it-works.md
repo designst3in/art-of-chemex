@@ -44,5 +44,5 @@ The patent (US 2,241,368) frames this as a **filtering device** — conical funn
 
 ## Assets needed
 
-- Cross-section diagram — can sketch from patent Fig 1 (`assets/patents/US2241368.pdf`)
+- Cross-section diagram — can sketch from patent Fig 1 (`/art-of-chemex/assets/patents/US2241368.pdf`)
 - Filter fold diagram — `TODO`

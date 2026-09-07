@@ -56,11 +56,11 @@ The Chemex is a one-piece borosilicate pour-over invented by German-American che
 
 ### Patents
 
-- US2241368: [Google](https://patents.google.com/patent/US2241368A/en) · [USPTO PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/2241368) · local `assets/patents/US2241368.pdf`
-- **USD137943** (design, 1944-05-23): [Google](https://patents.google.com/patent/USD137943S/en) · local `assets/patents/USD137943_GooglePatents.pdf`
-- US2411340 / US2681154: local Google Patents PDFs under `assets/patents/`
+- US2241368: [Google](https://patents.google.com/patent/US2241368A/en) · [USPTO PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/2241368) · local `/art-of-chemex/assets/patents/US2241368.pdf`
+- **USD137943** (design, 1944-05-23): [Google](https://patents.google.com/patent/USD137943S/en) · local `/art-of-chemex/assets/patents/USD137943_GooglePatents.pdf`
+- US2411340 / US2681154: local Google Patents PDFs under `/art-of-chemex/assets/patents/`
 - US2693883: [Google](https://patents.google.com/patent/US2693883A/en) · [USPTO PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/2693883)
 - US2897970: [USPTO PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/2897970)
 
-Image & essay catalog (rights-aware): [IMAGES-AND-ESSAYS.md](../assets/IMAGES-AND-ESSAYS.md).
-Wartime bulletin local copy: [`assets/historical/MoMA_Useful_Objects_in_Wartime_1942.pdf`](../assets/historical/MoMA_Useful_Objects_in_Wartime_1942.pdf).
+Image & essay catalog (rights-aware): [IMAGES-AND-ESSAYS.md](/art-of-chemex/assets/IMAGES-AND-ESSAYS.md).
+Wartime bulletin local copy: [`MoMA_Useful_Objects_in_Wartime_1942.pdf`](/art-of-chemex/assets/historical/MoMA_Useful_Objects_in_Wartime_1942.pdf).

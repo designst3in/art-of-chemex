@@ -41,8 +41,8 @@ Add break (10) after patent; extend brew lab + cupping (15).
 - [ ] Chemex units + bonded filters for each station
 - [ ] Scales / grinders / kettles tested
 - [ ] House recipe locked on Module 07
-- [ ] Patent PDF projected: `assets/patents/US2241368.pdf` (or Google Patents)
-- [ ] Open object image ready: `assets/images/BrooklynMuseum_Chemex_1997.117_CC-BY.jpg`
+- [ ] Patent PDF projected: `/art-of-chemex/assets/patents/US2241368.pdf` (or Google Patents)
+- [ ] Open object image ready: `/art-of-chemex/assets/images/BrooklynMuseum_Chemex_1997.117_CC-BY.jpg`
 - [ ] Docsify site or PDF backup offline
 - [ ] Allergies / hot-liquid safety brief
 - [ ] Rights-cleared slides only (no uncleared MoMA/LIFE grabs)
@@ -57,7 +57,7 @@ Add break (10) after patent; extend brew lab + cupping (15).
 ## Post-workshop
 
 - Update [NOTES.md](../NOTES.md) with what ran long/short
-- File new photos/credits in [SOURCES.md](../assets/SOURCES.md)
+- File new photos/credits in [SOURCES.md](/art-of-chemex/assets/SOURCES.md)
 - Capture Caplan quote source if anyone brings a primary cite
 
 > **REVIEW:** Venue address, date, partner branding, and headcount — TBD by instructor.

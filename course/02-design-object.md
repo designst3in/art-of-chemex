@@ -8,9 +8,14 @@
 - **Tie:** leather (or similar) fastening
 - **Filter:** proprietary thick **bonded** paper cone that follows the upper funnel
 
-![Chemex coffee maker, designed 1941 (Brooklyn Museum)](../assets/images/BrooklynMuseum_Chemex_1997.117_CC-BY.jpg)
+![Chemex coffee maker, designed 1941 (Brooklyn Museum)](/art-of-chemex/assets/images/BrooklynMuseum_Chemex_1997.117_CC-BY.jpg)
 
-*Brooklyn Museum object photo — open license. Credit & rights: [SOURCES](../assets/SOURCES.md).*
+*Brooklyn Museum object photo — open license. Credit & rights: [SOURCES](/art-of-chemex/assets/SOURCES.md).*
+
+
+![Chemex still life — Unsplash CC0](/art-of-chemex/assets/images/Chemex_Unsplash_ZacharyNewton_CC0.jpg)
+
+*Lifestyle / brew-lab atmosphere — Zachary Newton / Unsplash (CC0 1.0).*
 
 ## Why designers care
 
@@ -43,6 +48,6 @@ Wartime production later secured Corning / Pyrex glass under material constraint
 
 ## Assets
 
-- Product photo (open): `assets/images/BrooklynMuseum_Chemex_1997.117_CC-BY.jpg`
-- Lifestyle photo (CC0): `assets/images/Chemex_Unsplash_ZacharyNewton_CC0.jpg`
+- Product photo (open): `/art-of-chemex/assets/images/BrooklynMuseum_Chemex_1997.117_CC-BY.jpg`
+- Lifestyle photo (CC0): `/art-of-chemex/assets/images/Chemex_Unsplash_ZacharyNewton_CC0.jpg`
 - Detail shots (collar, spout, filter fold) — `TODO`
