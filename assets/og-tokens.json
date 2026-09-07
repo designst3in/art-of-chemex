@@ -1,0 +1,15 @@
+{
+  "title": "Art of Chemex",
+  "subtitle": "HISTORY · DESIGN · BREW",
+  "wght": 90,
+  "wdth": 112,
+  "opsz": 144,
+  "titleSizePx": 113,
+  "imageScale": 95,
+  "bg": "#4bb4bb",
+  "titleColor": "#F7F1E5",
+  "subtitleColor": "#5C3A21",
+  "credits": ["DESIGN SCIENTIST", "×", "KAT & KIN"],
+  "method": "white-bg photo + Color-blend #4bb4bb; type over image",
+  "reject": "rembg transparent cutout for OG"
+}

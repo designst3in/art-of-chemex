@@ -44,6 +44,13 @@ Canonical **90-minute** run of show (60 workshop + ≥30 QA/open brew): kit, tim
 
 Abhishek and Coffee Scientist co-manage this repo; approved material ships on GitHub Pages. Collaboration notes and open reviews live in [NOTES.md](NOTES.md).
 
+## Status
+
+**Teach content + schedule:** approved house recipes and canonical 90-min run of show are in course modules 07–08.  
+**OG image:** locked Color-blend layout tokens in [`assets/og-tokens.json`](assets/og-tokens.json); bake at [`assets/og.png`](assets/og.png).  
+**Homepage rewrite:** still pending — do not treat this README as the final landing art direction.  
+**Cold start:** read [`docs/PROJECT.md`](docs/PROJECT.md) then the full log in [`NOTES.md`](NOTES.md) (protocol, type stack, REVIEW list, SHAs).
+
 ## GitHub Pages
 
 Enable static hosting from the repo root:
