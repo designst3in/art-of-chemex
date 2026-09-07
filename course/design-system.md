@@ -6,8 +6,8 @@ Scaffold for *Art of Chemex* visual language. Tokens live in `theme.css` (`:root
 
 | Role | Face | Weight / axes | Color | Where |
 |------|------|---------------|-------|-------|
-| **1 · HUD chrome** | Silkscreen (HUDDI) | **400 only** — never 700; 16px (= 8px×`--s:2`); no antialias | Coffee `#5C3A21` (active nav → turquoise) | Sidebar links, small labels, `.hud` / `.meta` / REVIEW badges, inline `code` |
-| **2 · Headlines** | Google Sans Flex (variable) | Thin via `font-variation-settings` + CSS vars | **h1** turquoise · **h2/h3** coffee | `h1`–`h3`, `.app-name` |
+| **1 · HUD chrome** | Silkscreen (HUDDI) | **400 only** — never 700; 16px (= 8px×`--s:2`); no antialias | Coffee `#5C3A21` (active nav → turquoise) | **`h3`+**, sidebar links, small labels, `.hud` / `.meta` / REVIEW badges, inline `code` |
+| **2 · Headlines** | Google Sans Flex (variable) | Thin via `font-variation-settings` + CSS vars | **h1** turquoise · **h2** coffee | `h1`–`h2`, `.app-name` — **not** h3 |
 | **3 · Body** | Inter | 400 (system stack) | Ink `#2A1F18` | Paragraphs, lists, tables, blockquotes — **all** running copy |
 
 ### Live specimens
@@ -25,14 +25,14 @@ Scaffold for *Art of Chemex* visual language. Tokens live in `theme.css` (`:root
 ## Filtering device as domestic object
 
 <div class="type-specimen">
-  <div class="label">H3 · Flex · wght 280 · coffee</div>
+  <div class="label">H3 · Silkscreen HUD · 400 · 16px · coffee</div>
 </div>
 
 ### Borosilicate, wood, leather
 
 <div class="type-specimen">
   <div class="label">HUD · Silkscreen 400 · 16px · unantialiased</div>
-  <p class="hud">SIDEBAR · REVIEW · META · OSD</p>
+  <p class="hud">SIDEBAR · REVIEW · META · OSD · H3+</p>
 </div>
 
 <div class="type-specimen">
@@ -47,7 +47,7 @@ The Chemex is an hourglass pour-over: laboratory typology brought into the kitch
 |-------|-------|-----|
 | `--color-cream` | `#F7F1E5` | Page / sidebar ground |
 | `--color-turquoise` | `#1AA7A0` | h1, links, active nav, theme |
-| `--color-coffee` | `#5C3A21` | h2/h3, HUD, borders |
+| `--color-coffee` | `#5C3A21` | h2, h3+ HUD, borders |
 | `--color-ink` | `#2A1F18` | Body text |
 
 ## Flex axes (Google Sans Flex — full Latin variable)
@@ -58,13 +58,15 @@ The Chemex is an hourglass pour-over: laboratory typology brought into the kitch
 
 Available variation axes on the checked-in full `GoogleSansFlex.woff2`:
 
-| Axis | Tag | Headline defaults |
+| Axis | Tag | Headline defaults (h1/h2 only) |
 |------|-----|-------------------|
-| Weight | `wght` | h1 `120` · h2 `200` · h3 `280` (`--wght-h*`) |
-| Width | `wdth` | h1 `100` · h2 `105` · h3 `100` |
-| Optical size | `opsz` | h1 `144` · h2 `36` · h3 `24` |
+| Weight | `wght` | h1 `120` · h2 `200` (`--wght-h*`) |
+| Width | `wdth` | h1 `100` · h2 `105` |
+| Optical size | `opsz` | h1 `144` · h2 `36` |
 | Grade | `GRAD` | `0` |
 | Roundness | `ROND` | `0` |
+
+**h3 is not Flex** — Silkscreen 400 HUD chrome (same as sidebar / `.hud`). No `--wght-h3` / `--wdth-h3` / `--opsz-h3` required.
 
 Thin but not broken-hairline: prefer ~120+ for display; avoid `wght` 1 for long titles.
 
@@ -72,8 +74,8 @@ CSS variables to tune:
 
 ```css
 --font-flex / --font-silkscreen / --font-body
---wght-h1 --wght-h2 --wght-h3
---wdth-h1 --opsz-h1
+--wght-h1 --wght-h2
+--wdth-h1 --wdth-h2 --opsz-h1 --opsz-h2
 --color-cream --color-turquoise --color-coffee --color-ink
 ```
 
@@ -81,7 +83,7 @@ CSS variables to tune:
 
 Headlines animate via `font-variation-settings` (default tokens above; `transition: font-variation-settings 180ms ease`). Keep axes on CSS vars so future hover/scroll can retarget `wght` / `wdth` / `opsz` without swapping faces.
 
-**Docsify `vue.css` must not win on type:** it sets heading `font-weight` bold/600 and an `h1` `border-bottom` theme-color line. `theme.css` overrides with high-specificity `!important`, `font-synthesis: none`, keyword-range `font-weight` (100/200/300), and `border-bottom: none` so Safari never mixes synthetic bold with thin Flex glyphs. Do not reintroduce `font-weight` on `h*` from vue or other theme sheets.
+**Docsify `vue.css` must not win on type:** it sets heading `font-weight` bold/600 and an `h1` `border-bottom` theme-color line. `theme.css` overrides with high-specificity `!important`, `font-synthesis: none`, keyword-range `font-weight` (100/200 for Flex h1/h2; 400 for Silkscreen h3+), and `border-bottom: none` so Safari never mixes synthetic bold with thin Flex glyphs. Do not reintroduce `font-weight` on `h*` from vue or other theme sheets.
 
 ## Image rendering rules
 
